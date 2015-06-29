@@ -1,6 +1,5 @@
 {
 "name" : "BerriumGuns",
 "version" : "Beta v. Spirited Giraffe",
-"path" : ".",
-"dependencies" : []
+"path" : "."
 }

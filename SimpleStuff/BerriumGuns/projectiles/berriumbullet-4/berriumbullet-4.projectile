@@ -1,5 +1,5 @@
 {
-    "projectileName": "bullet-4",
+    "projectileName": "berriumbullet-4",
     "frames": "berriumbullet-4.png",
     "animationCycle": 0.25,
     "frameNumber": 1,
