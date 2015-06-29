@@ -1,0 +1,10 @@
+[
+{"op" : "add", "path" : "/initialquests/glitch/-", "value" : "outpostskin.gearup"},
+{"op" : "add", "path" : "/initialquests/human/-", "value" : "outpostskin.gearup"},
+{"op" : "add", "path" : "/initialquests/floran/-", "value" : "outpostskin.gearup"},
+{"op" : "add", "path" : "/initialquests/avian/-", "value" : "outpostskin.gearup"},
+{"op" : "add", "path" : "/initialquests/hylotl/-", "value" : "outpostskin.gearup"},
+{"op" : "add", "path" : "/initialquests/penguin/-", "value" : "outpostskin.gearup"},
+{"op" : "add", "path" : "/initialquests/apex/-", "value" : "outpostskin.gearup"},
+{"op" : "add", "path" : "/initialquests/novakid/-", "value" : "outpostskin.gearup"}
+]

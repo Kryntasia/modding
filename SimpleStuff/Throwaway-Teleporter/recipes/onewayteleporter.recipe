@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "money", "count" : 200 }
+  ],
+  "output" : { "item" : "onewayteleporter", "count" : 1 },
+  "groups" : [ "plain", "objects" ]
+}

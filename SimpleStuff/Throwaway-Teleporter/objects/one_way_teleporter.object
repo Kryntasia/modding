@@ -1,0 +1,24 @@
+{
+  "objectName" : "onewayteleporter",
+  "printable" : true,
+  "price" : 3000,
+  "rarity" : "rare",
+  "description" : "Small, handy and cheap! Get's you up to your ship again, no matter where you are!",
+  "shortdescription" : "One-Way Teleporter",
+  "stackable" : true,
+  "category" : "teleporter",
+
+  "interactAction" : "OpenTeleportDialog",
+  "interactData" : "/interface/warping/exitteleporter.config",
+
+  "inventoryIcon" : "one_way_teleporter_icon.png",
+  "orientations" : [
+    {
+      "image" : "one_way_teleporter.png",
+      "imagePosition" : [-8, -8],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ]
+}

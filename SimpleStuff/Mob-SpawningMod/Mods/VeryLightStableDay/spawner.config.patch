@@ -1,0 +1,12 @@
+[
+{"op" : "replace", "path" : "/spawns/passiveSmallBipedDay/targetDensity", "value" : 0.0075},
+{"op" : "replace", "path" : "/spawns/aggroSmallBipedDay/targetDensity", "value" : 0.0075},
+{"op" : "replace", "path" : "/spawns/passiveLargeBipedDay/targetDensity", "value" : 0.0075},
+{"op" : "replace", "path" : "/spawns/aggroLargeBipedDay/targetDensity", "value" : 0.0075},
+{"op" : "replace", "path" : "/spawns/passiveSmallQuadrupedDay/targetDensity", "value" : 0.0075},
+{"op" : "replace", "path" : "/spawns/aggroSmallQuadrupedDay/targetDensity", "value" : 0.0075},
+{"op" : "replace", "path" : "/spawns/passiveLargeQuadrupedDay/targetDensity", "value" : 0.0075},
+{"op" : "replace", "path" : "/spawns/aggroLargeQuadrupedDay/targetDensity", "value" : 0.0075},
+{"op" : "replace", "path" : "/spawns/passiveSmallFlyingDay/targetDensity", "value" : 0.00025},
+{"op" : "replace", "path" : "/spawns/aggroSmallFlyingDay/targetDensity", "value" : 0.00025}
+]

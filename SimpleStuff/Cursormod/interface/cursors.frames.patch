@@ -1,0 +1,5 @@
+[
+{
+"op" : "replace", "path" : "/frameList/pointer", "value" : [46, 46, 63, 63]
+}
+]

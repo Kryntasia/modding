@@ -1,0 +1,12 @@
+[
+{"op" : "replace", "path" : "/spawns/passiveSmallBipedNight/targetDensity", "value" : 0.15},
+{"op" : "replace", "path" : "/spawns/aggroSmallBipedNight/targetDensity", "value" : 0.15},
+{"op" : "replace", "path" : "/spawns/passiveLargeBipedNight/targetDensity", "value" : 0.15},
+{"op" : "replace", "path" : "/spawns/aggroLargeBipedNight/targetDensity", "value" : 0.15},
+{"op" : "replace", "path" : "/spawns/passiveSmallQuadrupedNight/targetDensity", "value" : 0.15},
+{"op" : "replace", "path" : "/spawns/aggroSmallQuadrupedNight/targetDensity", "value" : 0.15},
+{"op" : "replace", "path" : "/spawns/passiveLargeQuadrupedNight/targetDensity", "value" : 0.15},
+{"op" : "replace", "path" : "/spawns/aggroLargeQuadrupedNight/targetDensity", "value" : 0.15},
+{"op" : "replace", "path" : "/spawns/passiveSmallFlyingNight/targetDensity", "value" : 0.01},
+{"op" : "replace", "path" : "/spawns/aggroSmallFlyingNight/targetDensity", "value" : 0.01}
+]
