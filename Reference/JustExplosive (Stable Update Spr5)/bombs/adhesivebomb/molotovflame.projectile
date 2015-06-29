@@ -1,0 +1,16 @@
+{
+  "projectileName" : "adhesivespark",
+  "physics" : "gas",
+  "bounces" : 4,
+  "level" : 3,
+  "timeToLive" : 1,
+  "speed" : 0,
+  "frames" : "boomerproj.png",
+  "animationCycle" : 0.55,
+  "lightColor" : [235, 126, 2],
+  "frameNumber" : 4,
+  "piercing" : true,
+  "emitters" : [ "defaultorange" ],
+  "power" :0,
+  "damageKind" : "default"
+}

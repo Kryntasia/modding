@@ -1,0 +1,22 @@
+{
+  "projectileName" : "earthrifterproj",
+  "frames" : "sonicwave.png",
+  "physics" : "bullet",
+  "level" : 3,
+  "animationCycle" : 0.2,
+  "damageKindImage" : "icon.png",
+  "frameNumber" : 7,
+  "power" : 1,
+  "speed" : 25,
+  "timeToLive" : 20,
+  "bounces" : 0,
+  "damagePoly" : [ [-9, 0], [-6, -6], [0, -9], [6, -6], [9, 0], [6, 6], [0, 9], [-6, 6] ],
+  "damageKind" : "slash",
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/explosions/earthrifterboom.config"
+    }
+  ],  
+   "damageType" : "ignoresdef"
+}

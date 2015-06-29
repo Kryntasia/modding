@@ -1,0 +1,27 @@
+{
+  "projectileName" : "shockwaveturretproj",
+  "frames" : "sonicwave.png",
+  "physics" : "laser",
+  "level" : 3,
+  "animationCycle" : 1.0,
+  "damageKindImage" : "icon.png",
+  "frameNumber" : 7,
+  "power" : 20,
+  "speed" : 25,
+  "timeToLive" : 0.5,
+  "bounces" : 4,
+  "piercing" : true,
+  "damagePoly" : [ [-9, 0], [-6, -6], [0, -9], [6, -6], [9, 0], [6, 6], [0, 9], [-6, 6] ],
+  "damageKind" : "slash",
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/bulletexplosion/bulletexplosion.config"
+    }
+  ],
+   "statusEffects" : [
+    "frostslow"
+  ],
+   "damageType" : "ignoresdef",
+  "emitters" : [ "defaultwhite" ]
+}

@@ -1,0 +1,5 @@
+{
+  "input" : [],
+  "output" : { "item" : "toxicbarrel", "count" : 1 },
+  "groups" : [ "plain", "barrel", "all" ]
+}

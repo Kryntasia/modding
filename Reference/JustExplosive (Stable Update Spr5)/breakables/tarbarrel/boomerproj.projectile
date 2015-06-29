@@ -1,0 +1,19 @@
+{
+  "projectileName" : "tarbarrelproj",
+  "frames" : "boomerproj.png",
+  "animationCycle" : 0.25,
+  "level" : 3,
+  "physics" : "laser",
+  "frameNumber" : 4,
+  "pointLight" : false,
+  "speed" : 40,
+  
+  "lightColor" : [10, 10, 10],
+  "timeToLive" : 0.01,
+
+  "actionOnReap" : [  {
+      "action" : "config",
+      "file" : "/explosions/smallblast-noblock.config"
+    }, { "action" : "liquid", "liquid" : "tarliquid", "quantity" : 15000 } ],
+  "damageKind" : "default"
+}

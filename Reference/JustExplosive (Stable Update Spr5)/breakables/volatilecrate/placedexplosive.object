@@ -1,0 +1,50 @@
+{
+  "objectName" : "placedexplosive",
+  "printable" : false,
+  "rarity" : "Common",
+  
+
+  "category" : "storage",
+  "price" : 0,
+  "race":"generic",
+   "description" : "This box is full of a volatile chemical - once you put it down, you'd better leave it there, because one bump and up it goes!",
+  "shortdescription" : "Volatile Crate",
+  "apexDescription" : "This box is full of a volatile chemical - once you put it down, you'd better leave it there, because one bump and up it goes!",
+  "avianDescription" : "This box is full of a volatile chemical - once you put it down, you'd better leave it there, because one bump and up it goes!",
+  "floranDescription" : "This box is full of a volatile chemical - once you put it down, you'd better leave it there, because one bump and up it goes!",
+  "glitchDescription" : "This box is full of a volatile chemical - once you put it down, you'd better leave it there, because one bump and up it goes!",
+  "humanDescription" : "This box is full of a volatile chemical - once you put it down, you'd better leave it there, because one bump and up it goes!",
+  "hylotlDescription" : "This box is full of a volatile chemical - once you put it down, you'd better leave it there, because one bump and up it goes!",
+
+  "inventoryIcon" : "woodencrate1icon.png",
+  "orientations" : [
+    {
+      "leftImage" : "woodencrate1left.png:default",
+      "rightImage" : "woodencrate1right.png:default",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ],
+  
+   "scripts" : [ "boomer.lua" ],
+  "scriptDelta" : 5,
+  
+   "useSounds" : [ "/sfx/objects/bardoor_open.wav" ],
+  
+  "smashSounds" : [ "/sfx/objects/capsule_break1.wav", "/sfx/objects/capsule_break2.wav", "/sfx/objects/capsule_break3.wav" ],
+  "smashDropOptions" : [
+    [  ]
+  ],
+  "breakDropOptions" : [
+    [ ]
+  ]
+  
+  
+}

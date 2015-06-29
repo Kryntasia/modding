@@ -1,0 +1,47 @@
+{
+  "objectName" : "cryobarrel",
+  "rarity" : "Common",
+  
+    "race" : "generic",
+   "description" : "This barrel is full of a supercooled gas - once you put it down, you'd better leave it there, because one bump and you're frozen solid!",
+  "shortdescription" : "Cryo Barrel",
+  "apexDescription" : "This barrel is full of a supercooled gas - once you put it down, you'd better leave it there, because one bump and you're frozen solid!",
+  "avianDescription" : "This barrel is full of a supercooled gas - once you put it down, you'd better leave it there, because one bump and you're frozen solid!",
+  "floranDescription" : "This barrel is full of a supercooled gas - once you put it down, you'd better leave it there, because one bump and you're frozen solid!",
+  "glitchDescription" : "This barrel is full of a supercooled gas - once you put it down, you'd better leave it there, because one bump and you're frozen solid!",
+  "humanDescription" : "This barrel is full of a supercooled gas - once you put it down, you'd better leave it there, because one bump and you're frozen solid!",
+  "hylotlDescription" : "This barrel is full of a supercooled gas - once you put it down, you'd better leave it there, because one bump and you're frozen solid!",
+
+  "category" : "wire",
+  "printable" : false,
+  "price" : 0,
+  
+  
+  "inventoryIcon" : "boomericon.png",
+  "orientations" : [
+    {
+      "image" : "boomer.png:<color>",
+      "imagePosition" : [0, 0],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    }
+  ],
+  
+  "scripts" : [ "cryobarrel.lua" ],
+  "scriptDelta" : 5,
+  
+   "useSounds" : [ "/sfx/objects/bardoor_open.wav" ],
+
+  "inboundNodes" : [ ],
+  "outboundNodes" : [ ],
+  
+  "smashSounds" : [ "/sfx/objects/capsule_break1.wav", "/sfx/objects/capsule_break2.wav", "/sfx/objects/capsule_break3.wav" ],
+  "smashDropOptions" : [
+    [  ]
+  ],
+  "breakDropOptions" : [
+    [  ]
+  ]
+
+}

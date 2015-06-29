@@ -1,0 +1,68 @@
+{
+  "objectName" : "wallpiercer",
+  "printable" : false,
+  "rarity" : "Common",
+  
+  "price" : 0,
+
+   "description" : "Can be adhered to any wall - pierces a narrow path through even the toughest material.",
+  "shortdescription" : "Wallpiercer",
+  "race" : "generic",
+  "catagory" : "decorative",
+
+  "apexDescription" : "Can be adhered to any wall - pierces a narrow path through even the toughest material.",
+  "avianDescription" : "Can be adhered to any wall - pierces a narrow path through even the toughest material.",
+  "floranDescription" : "Can be adhered to any wall - pierces a narrow path through even the toughest material.",
+  "glitchDescription" : "Can be adhered to any wall - pierces a narrow path through even the toughest material.",
+  "humanDescription" : "Can be adhered to any wall - pierces a narrow path through even the toughest material.",
+  "hylotlDescription" : "Can be adhered to any wall - pierces a narrow path through even the toughest material.",
+
+  "inventoryIcon" : "bombicon.png",
+  "orientations" : [
+    {
+      "image" : "bomb.png:<frame>",
+      "imagePosition" : [0, 0],
+      "frames" : 4,
+      "animationCycle" : 0.5,
+
+     "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+	
+	 {
+      "image" : "bombtop.png:<frame>",
+      "imagePosition" : [0, 0],
+      "frames" : 4,
+      "animationCycle" : 0.5,
+
+     "spaceScan" : 0.1,
+      "anchors" : [ "top" ]
+    },
+
+    {
+      "image" : "bombleft.png:<frame>",
+       "imagePosition" : [1, 0],
+      "frames" : 4,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "left" ]
+    },
+
+    {
+      "image" : "bombright.png:<frame>",
+       "imagePosition" : [-1, 0],
+      "frames" : 4,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "right" ]
+    }
+  ],
+
+  "scripts" : [ "wallpiercer.lua" ],
+  "scriptDelta" : 5,
+  
+  "soundEffect" : "/sfx/objects/torch.wav",
+  "inboundNodes" : [ [0, 0] ]
+}

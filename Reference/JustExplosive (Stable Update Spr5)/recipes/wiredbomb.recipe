@@ -1,0 +1,5 @@
+{
+  "input" : [],
+  "output" : { "item" : "wiredbomb", "count" : 1 },
+  "groups" : [ "plain", "objects", "all" ]
+}

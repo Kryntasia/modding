@@ -1,0 +1,26 @@
+{
+  "projectileName" : "boomerflame",
+  "physics" : "grenade",
+  "bounces" : 4,
+  "level" : 3,
+  "timeToLive" : 10,
+  "speed" : 25,
+  "frames" : "molotovflame.png",
+  "animationCycle" : 0.55,
+  "lightColor" : [235, 126, 2],
+  "frameNumber" : 4,
+  "piercing" : true,
+  "emitters" : [ "flames" ],
+  "damagePoly" : [ [-9, 0], [-6, -6], [0, -9], [6, -6], [9, 0], [6, 6], [0, 9], [-6, 6] ],
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/smoke/smoke.config"
+    }
+  ],
+  "damageKind" : "fire",
+  "statusEffects" : [
+   "lanternglow",
+     "burning"
+  ]
+}

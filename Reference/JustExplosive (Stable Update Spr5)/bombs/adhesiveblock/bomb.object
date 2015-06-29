@@ -1,0 +1,99 @@
+{
+  "objectName" : "adhesiveblock",
+  "printable" : false,
+  "rarity" : "Common",
+  
+  "price" : 0,
+
+   "description" : "Can be adhered to any surface - once activated, will explode in response to shock. Can be removed if deactivated.",
+  "shortdescription" : "Adhesive Block",
+  "race" : "generic",
+  "catagory" : "decorative",
+
+  "apexDescription" : "Can be adhered to any surface - once activated, will explode in response to shock. Can be removed if deactivated.",
+  "avianDescription" : "Can be adhered to any surface - once activated, will explode in response to shock. Can be removed if deactivated.",
+  "floranDescription" : "Can be adhered to any surface - once activated, will explode in response to shock. Can be removed if deactivated.",
+  "glitchDescription" : "Can be adhered to any surface - once activated, will explode in response to shock. Can be removed if deactivated.",
+  "humanDescription" : "Can be adhered to any surface - once activated, will explode in response to shock. Can be removed if deactivated.",
+  "hylotlDescription" : "Can be adhered to any surface - once activated, will explode in response to shock. Can be removed if deactivated.",
+
+  
+  "inventoryIcon" : "bombicon.png",
+  "orientations" : [
+    {
+      "image" : "bomb.png:<color>.off",
+      "imagePosition" : [0, 0],
+      "frames" : 4,
+      "animationCycle" : 0.5,
+
+     "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    },
+	
+	 {
+      "image" : "bomb.png:<color>.off",
+      "imagePosition" : [0, 0],
+      "frames" : 4,
+      "animationCycle" : 0.5,
+
+     "spaceScan" : 0.1,
+      "anchors" : [ "top" ],
+      "collision" : "platform"
+    },
+
+    {
+      "image" : "bomb.png:<color>.off",
+       "imagePosition" : [1, 0],
+      "frames" : 4,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "left" ],
+      "collision" : "platform"
+    },
+
+    {
+      "image" : "bomb.png:<color>.off",
+       "imagePosition" : [1, 0],
+      "frames" : 4,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "right" ],
+      "collision" : "platform"
+    },
+
+    {
+      "image" : "bomb.png:<color>.off",
+      "imagePosition" : [0, 0],
+      "frames" : 4,
+      "animationCycle" : 0.5,
+
+     "spaceScan" : 0.1,
+      "anchors" : [ "background" ],
+      "collision" : "platform"
+    }
+  ],
+
+  "scripts" : [ "detonator.lua" ],
+  "scriptDelta" : 5,
+  
+  "animation" : "bomb.animation",
+  "animationParts" : {
+    "switch" : "bomb.png"
+  },
+  "animationPosition" : [8, 8],
+  
+  "soundEffect" : "/sfx/objects/torch.wav",
+  
+  "inboundNodes" : [ [0, 0] ],
+  
+  "smashSounds" : [ "/sfx/objects/capsule_break1.wav", "/sfx/objects/capsule_break2.wav", "/sfx/objects/capsule_break3.wav" ],
+  "smashDropOptions" : [
+    [  ]
+  ],
+  "breakDropOptions" : [
+    [  ]
+  ]
+}

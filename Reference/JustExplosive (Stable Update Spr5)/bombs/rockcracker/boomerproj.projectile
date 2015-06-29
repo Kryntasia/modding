@@ -1,0 +1,24 @@
+{
+  "projectileName" : "rockcrackerproj",
+  "frames" : "boomerproj.png",
+  "animationCycle" : 0.25,
+  "level" : 3,
+  "physics" : "grenade",
+  "frameNumber" : 4,
+  "pointLight" : false,
+  "speed" : 40,
+  
+  "lightColor" : [255, 186, 0],
+  "timeToLive" : 0.01,
+
+  "actionOnReap" : [
+   {
+      "action" : "config",
+      "file" : "/explosions/smallblast-block.config"
+    }
+  ],
+  "power" : 100.0,
+  "damageKind" : "default"
+}
+
+

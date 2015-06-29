@@ -1,0 +1,5 @@
+{
+  "input" : [],
+  "output" : { "item" : "adhesiveblocksmall", "count" : 1 },
+  "groups" : [ "plain", "sticky", "all" ]
+}

@@ -1,0 +1,80 @@
+{
+  "objectName" : "adhesivebomb",
+  "printable" : false,
+  "rarity" : "Common",
+  
+  "price" : 0,
+
+   "description" : "Can be adhered to any surface - deals high damage to a small area. Perfect for breaching.",
+  "shortdescription" : "Adhesive Charge",
+  "race" : "generic",
+  "catagory" : "decorative",
+
+  "apexDescription" : "Can be adhered to any surface - deals high damage to a small area. Perfect for breaching.",
+  "avianDescription" : "Can be adhered to any surface - deals high damage to a small area. Perfect for breaching.",
+  "floranDescription" : "Can be adhered to any surface - deals high damage to a small area. Perfect for breaching.",
+  "glitchDescription" : "Can be adhered to any surface - deals high damage to a small area. Perfect for breaching.",
+  "humanDescription" : "Can be adhered to any surface - deals high damage to a small area. Perfect for breaching.",
+  "hylotlDescription" : "Can be adhered to any surface - deals high damage to a small area. Perfect for breaching.",
+
+  "inventoryIcon" : "bombicon.png",
+  "orientations" : [
+    {
+      "image" : "bomb.png:<frame>",
+      "imagePosition" : [0, 0],
+      "frames" : 4,
+      "animationCycle" : 0.5,
+
+     "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+	
+	 {
+      "image" : "bombtop.png:<frame>",
+      "imagePosition" : [0, 0],
+      "frames" : 4,
+      "animationCycle" : 0.5,
+
+     "spaceScan" : 0.1,
+      "anchors" : [ "top" ]
+    },
+
+    {
+      "image" : "bombleft.png:<frame>",
+       "imagePosition" : [1, 0],
+      "frames" : 4,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "left" ]
+    },
+
+    {
+      "image" : "bombright.png:<frame>",
+       "imagePosition" : [1, 0],
+      "frames" : 4,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "right" ]
+    },
+
+    {
+      "image" : "bombback.png:<frame>",
+      "imagePosition" : [0, 0],
+      "frames" : 4,
+      "animationCycle" : 0.5,
+
+     "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "scripts" : [ "adhesivebomb.lua" ],
+  "scriptDelta" : 5,
+  
+  "soundEffect" : "/sfx/objects/torch.wav",
+
+  "outboundNodes" : [ [0, 0] ],
+  "inboundNodes" : [ [1, 0] ]
+}

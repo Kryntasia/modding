@@ -1,0 +1,115 @@
+{
+  "animatedParts" : {
+    "stateTypes" : {
+      "switchState" : {
+        "default" : "off",
+        "states" : {
+          "off" : {
+            "frames" : 2,
+			"cycle" : 0.4,
+			"mode" : "loop"
+          },
+          "l" : {
+            "frames" : 2,
+			"cycle" : 0.4,
+			"mode" : "loop"
+          },
+		  "ul" : {
+            "frames" : 2,
+			"cycle" : 0.4,
+			"mode" : "loop"
+          },
+		  "u" : {
+            "frames" : 2,
+			"cycle" : 0.4,
+			"mode" : "loop"
+          },
+		  "ur" : {
+            "frames" : 2,
+			"cycle" : 0.4,
+			"mode" : "loop"
+          },
+		  "r" : {
+            "frames" : 2,
+			"cycle" : 0.4,
+			"mode" : "loop"
+          },
+		  "dr" : {
+            "frames" : 2,
+			"cycle" : 0.4,
+			"mode" : "loop"
+          },
+		  "d" : {
+            "frames" : 2,
+			"cycle" : 0.4,
+			"mode" : "loop"
+          },
+		  "dl" : {
+            "frames" : 2,
+			"cycle" : 0.4,
+			"mode" : "loop"
+          }
+        }
+      }
+    },
+
+    "parts" : {
+      "switch" : {
+        "properties" : {
+          "centered" : true
+        },
+
+        "partStates" : {
+          "switchState" : {
+            "off" : {
+              "properties" : {
+                "image" : "<partImage>:<color>.off.<frame>"
+              }
+            },
+
+            "l" : {
+              "properties" : {
+                "image" : "<partImage>:<color>.l.<frame>"
+              }
+            },
+			"ul" : {
+              "properties" : {
+                "image" : "<partImage>:<color>.ul.<frame>"
+              }
+            },
+			"u" : {
+              "properties" : {
+                "image" : "<partImage>:<color>.u.<frame>"
+              }
+            },
+			"ur" : {
+              "properties" : {
+                "image" : "<partImage>:<color>.ur.<frame>"
+              }
+            },
+			"r" : {
+              "properties" : {
+                "image" : "<partImage>:<color>.r.<frame>"
+              }
+            },
+			"dr" : {
+              "properties" : {
+                "image" : "<partImage>:<color>.dr.<frame>"
+              }
+            },
+			"d" : {
+              "properties" : {
+                "image" : "<partImage>:<color>.d.<frame>"
+              }
+            },
+			"dl" : {
+              "properties" : {
+                "image" : "<partImage>:<color>.dl.<frame>"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

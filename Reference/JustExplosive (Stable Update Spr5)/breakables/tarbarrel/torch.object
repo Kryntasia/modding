@@ -1,0 +1,50 @@
+{
+  "objectName" : "tarbarrel",
+  "printable" : false,
+  "rarity" : "Common",
+  "category" : "light",
+  "price" : 0,
+
+  "description" : "For some reason, this fragile container is used for storage of gooey tar.",
+  "shortdescription" : "Tar Container",
+  "race" : "generic",
+
+    "apexDescription" : "For some reason, this fragile container is used for storage of gooey tar.",
+  "avianDescription" : "For some reason, this fragile container is used for storage of gooey tar.",
+  "floranDescription" : "For some reason, this fragile container is used for storage of gooey tar.",
+  "glitchDescription" : "For some reason, this fragile container is used for storage of gooey tar.",
+  "humanDescription" : "For some reason, this fragile container is used for storage of gooey tar.",
+  "hylotlDescription" : "For some reason, this fragile container is used for storage of gooey tar.",
+
+
+  "lightColor" : [20, 10, 20],
+  "flickerDistance" : 0.2,
+  "flickerStrength" : 0.1,
+  
+
+  "inventoryIcon" : "torchicon.png",
+  "orientations" : [
+    {
+      "image" : "torch.png:<frame>",
+      "imagePosition" : [1, 0],
+      "frames" : 4,
+      "animationCycle" : 0.5,
+
+       "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],	  
+      "collision" : "platform"
+    }
+  ],
+
+   "scripts" : [ "tarbarrel.lua" ],
+  "scriptDelta" : 5,
+  
+  "smashSounds" : [ "/sfx/objects/capsule_break1.wav", "/sfx/objects/capsule_break2.wav", "/sfx/objects/capsule_break3.wav" ],
+  "smashDropOptions" : [
+    [  ]
+  ],
+  "breakDropOptions" : [
+    [  ]
+  ]
+
+}

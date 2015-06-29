@@ -1,0 +1,5 @@
+{
+  "input" : [],
+  "output" : { "item" : "directionalbomb", "count" : 1 },
+  "groups" : [ "plain", "sticky", "all" ]
+}

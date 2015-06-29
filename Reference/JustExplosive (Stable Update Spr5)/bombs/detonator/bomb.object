@@ -1,0 +1,43 @@
+{
+  "objectName" : "detonator",
+  "printable" : false,
+  "rarity" : "Common",
+  
+  "price" : 0,
+
+   "description" : "This detonator can be used to set off explosives at a safe distance - once activated, the charge will detonate only after you clear the area.",
+  "shortdescription" : "Safety Detonator",
+  "race" : "generic",
+  "catagory" : "decorative",
+
+  "apexDescription" : "This detonator can be used to set off explosives at a safe distance - once activated, the charge will detonate only after you clear the area.",
+  "avianDescription" : "This detonator can be used to set off explosives at a safe distance - once activated, the charge will detonate only after you clear the area.",
+  "floranDescription" : "This detonator can be used to set off explosives at a safe distance - once activated, the charge will detonate only after you clear the area.",
+  "glitchDescription" : "This detonator can be used to set off explosives at a safe distance - once activated, the charge will detonate only after you clear the area.",
+  "humanDescription" : "This detonator can be used to set off explosives at a safe distance - once activated, the charge will detonate only after you clear the area.",
+  "hylotlDescription" : "This detonator can be used to set off explosives at a safe distance - once activated, the charge will detonate only after you clear the area.",
+
+  "inventoryIcon" : "bombicon.png",
+  "orientations" : [
+    {
+      "image" : "bomb.png:<color>.off",
+      "imagePosition" : [0, 0],
+      "frames" : 5,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "scripts" : [ "detonator.lua" ],
+  "scriptDelta" : 5,
+  
+  "animation" : "bomb.animation",
+  "animationParts" : {
+    "switch" : "bomb.png"
+  },
+  "animationPosition" : [3, 7],
+  
+  "soundEffect" : "/sfx/objects/torch.wav"
+}

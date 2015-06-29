@@ -1,0 +1,27 @@
+{
+  "projectileName" : "cryobarrelproj2",
+  "frames" : "icecrystal.png",
+  "animationCycle" : 1.4,
+  "frameNumber" : 8,
+  "armorPenetration" : 1,
+  "physics" : "gas",
+  "bounces" : 3,
+    "lightColor" : [0, 100, 200],
+  "speed" : 5,
+  "timeToLive" : 5,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/bulletexplosion/bulletexplosion.config"
+    }
+  ],
+   "statusEffects" : [
+   "frostslow"
+  ],
+  "power" : 10.0,
+   "damageType" : "ignoresdef",
+  "damageKind" : "default",
+  "emitters" : [ "defaultwhite" ]
+}
+
+

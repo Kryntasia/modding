@@ -1,0 +1,83 @@
+{
+  "objectName" : "proximitybomb",
+  "printable" : false,
+  "rarity" : "Common",
+  
+  "price" : 0,
+
+   "description" : "Can be adhered to any surface - detonates when a monster approaches, but will deactivate if a player is too close.",
+  "shortdescription" : "Proximity Mine - Safe",
+  "race" : "generic",
+  "catagory" : "decorative",
+
+  "apexDescription" : "Can be adhered to any surface - detonates when a monster approaches, but will deactivate if a player is too close.",
+  "avianDescription" : "Can be adhered to any surface - detonates when a monster approaches, but will deactivate if a player is too close.",
+  "floranDescription" : "Can be adhered to any surface - detonates when a monster approaches, but will deactivate if a player is too close.",
+  "glitchDescription" : "Can be adhered to any surface - detonates when a monster approaches, but will deactivate if a player is too close.",
+  "humanDescription" : "Can be adhered to any surface - detonates when a monster approaches, but will deactivate if a player is too close.",
+  "hylotlDescription" : "Can be adhered to any surface - detonates when a monster approaches, but will deactivate if a player is too close.",
+
+  "inventoryIcon" : "bombicon.png",
+  "orientations" : [
+    {
+      "image" : "bomb.png:<color>.off",
+      "imagePosition" : [0, 0],
+      "frames" : 4,
+      "animationCycle" : 0.5,
+
+     "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+	
+	 {
+      "image" : "bomb.png:<color>.off",
+      "imagePosition" : [0, 0],
+      "frames" : 4,
+      "animationCycle" : 0.5,
+
+     "spaceScan" : 0.1,
+      "anchors" : [ "top" ]
+    },
+
+    {
+      "image" : "bomb.png:<color>.off",
+       "imagePosition" : [1, 0],
+      "frames" : 4,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "left" ]
+    },
+
+    {
+      "image" : "bomb.png:<color>.off",
+       "imagePosition" : [1, 0],
+      "frames" : 4,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "right" ]
+    },
+
+    {
+      "image" : "bomb.png:<color>.off",
+      "imagePosition" : [0, 0],
+      "frames" : 4,
+      "animationCycle" : 0.5,
+
+     "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "scripts" : [ "proximitybomb.lua" ],
+  "scriptDelta" : 5,
+  
+  "animation" : "bomb.animation",
+  "animationParts" : {
+    "switch" : "bomb.png"
+  },
+  "animationPosition" : [4, 4],
+  
+  "soundEffect" : "/sfx/objects/torch.wav"
+}

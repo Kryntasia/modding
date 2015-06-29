@@ -1,0 +1,87 @@
+{
+  "objectName" : "directionalbombsonic",
+  "printable" : false,
+  "rarity" : "Common",
+  
+  "price" : 0,
+
+   "description" : "Can be adhered to any surface and can aim a stunning blast in 8 directions - detonates on receiving a signal.",
+  "shortdescription" : "Eightway - Sonic",
+  "race" : "generic",
+  "catagory" : "decorative",
+
+  "apexDescription" : "Can be adhered to any surface and can aim a stunning blast in 8 directions - detonates on receiving a signal.",
+  "avianDescription" : "Can be adhered to any surface and can aim a stunning blast in 8 directions - detonates on receiving a signal.",
+  "floranDescription" : "Can be adhered to any surface and can aim a stunning blast in 8 directions - detonates on receiving a signal.",
+  "glitchDescription" : "Can be adhered to any surface and can aim a stunning blast in 8 directions - detonates on receiving a signal.",
+  "humanDescription" : "Can be adhered to any surface and can aim a stunning blast in 8 directions - detonates on receiving a signal.",
+  "hylotlDescription" : "Can be adhered to any surface and can aim a stunning blast in 8 directions - detonates on receiving a signal.",
+
+  "inventoryIcon" : "bombicon.png",
+  "orientations" : [
+    {
+      "image" : "bomb.png:<color>.off.1",
+      "direction" : "right",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+     "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+	
+	 {
+      "image" : "bomb.png:<color>.off.1",	  
+      "direction" : "right",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+     "spaceScan" : 0.1,
+      "anchors" : [ "top" ]
+    },
+
+    {
+      "image" : "bomb.png:<color>.off.1",
+      "direction" : "right",
+       "imagePosition" : [1, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "left" ]
+    },
+
+    {
+      "image" : "bomb.png:<color>.off.1",
+      "direction" : "right",
+       "imagePosition" : [1, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "right" ]
+    },
+	
+	{
+      "image" : "bomb.png:<color>.off.1",
+      "direction" : "right",
+       "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "scripts" : [ "directionalbomb.lua" ],
+  "scriptDelta" : 5,
+  
+  "soundEffect" : "/sfx/objects/torch.wav",
+  "inboundNodes" : [ [0, 0] ],
+  
+   "animation" : "bomb.animation",
+  "animationParts" : {"switch" : "bomb.png"},
+  "animationPosition" : [4, 4]
+}

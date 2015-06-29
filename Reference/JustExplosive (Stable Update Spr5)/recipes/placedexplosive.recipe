@@ -1,0 +1,5 @@
+{
+  "input" : [],
+  "output" : { "item" : "placedexplosive", "count" : 1 },
+  "groups" : [ "plain", "objects", "all" ]
+}

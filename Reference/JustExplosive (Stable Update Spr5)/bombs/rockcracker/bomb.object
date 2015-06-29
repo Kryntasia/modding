@@ -1,0 +1,45 @@
+{
+  "objectName" : "rockcracker",
+  "printable" : false,
+  "rarity" : "Common",
+  
+  "price" : 0,
+
+   "description" : "Sends an explosive pulse into the ground, splitting open a chasm.",
+  "shortdescription" : "Rockcracker",
+  "race" : "generic",
+  "catagory" : "decorative",
+
+  "apexDescription" : "Sends an explosive pulse into the ground, splitting open a chasm.",
+  "avianDescription" : "Sends an explosive pulse into the ground, splitting open a chasm.",
+  "floranDescription" : "Sends an explosive pulse into the ground, splitting open a chasm.",
+  "glitchDescription" : "Sends an explosive pulse into the ground, splitting open a chasm.",
+  "humanDescription" : "Sends an explosive pulse into the ground, splitting open a chasm.",
+  "hylotlDescription" : "Sends an explosive pulse into the ground, splitting open a chasm.",
+
+  "inventoryIcon" : "bombicon.png",
+  "orientations" : [
+    {
+      "image" : "bomb.png:<color>.off",
+      "imagePosition" : [1, 0],
+      "frames" : 5,
+      "animationCycle" : 1,
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "fgAnchors" : [ [0, -1] ]
+    }
+  ],
+
+  "scripts" : [ "rockcracker.lua" ],
+  "scriptDelta" : 5,
+  
+  "animation" : "bomb.animation",
+  "animationParts" : {
+    "switch" : "bomb.png"
+  },
+  "animationPosition" : [0, 0],
+  
+  "soundEffect" : "/sfx/objects/torch.wav",
+   
+  "inboundNodes" : [ [0, 0] ]
+}

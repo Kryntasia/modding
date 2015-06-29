@@ -1,0 +1,20 @@
+{
+  "projectileName" : "toxicbarrelpoison2",
+  "frames" : "gas2.png",
+  "physics" : "gas",
+  "level" : 3,
+  "animationCycle" : 1.4,
+  "frameNumber" : 8,
+  "power" : -1,
+  "speed" : 10,
+  "timeToLive" : 3,
+  "bounces" : 1,
+  "damagePoly" : [ [-18, 0], [-12, -12], [0, -18], [12, -12], [18, 0], [12, 12], [0, 18], [-12, 12] ],
+  "piercing" : true,
+  "statusEffects" : [
+    "weakpoison"
+  ],
+  "universalDamage" : true,
+  "damageType" : "ignoresdef",
+  "damageKind" : "default"
+}

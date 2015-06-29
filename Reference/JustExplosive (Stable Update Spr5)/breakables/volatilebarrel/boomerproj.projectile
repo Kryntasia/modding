@@ -1,0 +1,136 @@
+{
+  "projectileName" : "boomerproj",
+  "frames" : "boomerproj.png",
+  "animationCycle" : 0.25,
+  "level" : 3,
+  "physics" : "grenade",
+  "frameNumber" : 4,
+  "pointLight" : false,
+  "speed" : 40,
+  
+  "lightColor" : [255, 186, 0],
+  "timeToLive" : 0.01,
+
+  "actionOnReap" : [
+	{
+      "action" : "config",
+      "file" : "/explosions/smallblast-noblock.config"
+    },
+    {
+      "action" : "projectile",
+      "type" : "boomerflame",
+      "fuzzAngle" : 360,
+      "inheritDamageFactor" :1,
+      "angleAdjust" : 180
+    },
+    {
+      "action" : "projectile",
+      "type" : "boomerflame",
+      "fuzzAngle" : 360,
+      "inheritDamageFactor" :1,
+      "angleAdjust" : 180
+    },
+    {
+      "action" : "projectile",
+      "type" : "boomerflame",
+      "fuzzAngle" : 360,
+      "inheritDamageFactor" :1,
+      "angleAdjust" : 180
+    },
+    {
+      "action" : "projectile",
+      "type" : "boomerflame",
+      "fuzzAngle" : 360,
+      "inheritDamageFactor" :1,
+      "angleAdjust" : 180
+    },
+    {
+      "action" : "projectile",
+      "type" : "boomerflame",
+      "fuzzAngle" : 360,
+      "inheritDamageFactor" :1,
+      "angleAdjust" : 180
+    },
+    {
+      "action" : "projectile",
+      "type" : "boomerflame",
+      "fuzzAngle" : 360,
+      "inheritDamageFactor" :1,
+      "angleAdjust" : 180
+    },
+    {
+      "action" : "projectile",
+      "type" : "boomerflame",
+      "fuzzAngle" : 360,
+      "inheritDamageFactor" :1,
+      "angleAdjust" : 180
+    },
+    {
+      "action" : "projectile",
+      "type" : "boomerflame",
+      "fuzzAngle" : 360,
+      "inheritDamageFactor" :1,
+      "angleAdjust" : 180
+    },
+    {
+      "action" : "projectile",
+      "type" : "boomerflame",
+      "fuzzAngle" : 360,
+      "inheritDamageFactor" :1,
+      "angleAdjust" : 180
+    },
+    {
+      "action" : "projectile",
+      "type" : "boomerflame",
+      "fuzzAngle" : 360,
+      "inheritDamageFactor" :1,
+      "angleAdjust" : 180
+    },
+    {
+      "action" : "projectile",
+      "type" : "boomerflame",
+      "fuzzAngle" : 360,
+      "inheritDamageFactor" :1,
+      "angleAdjust" : 180
+    },
+    {
+      "action" : "projectile",
+      "type" : "boomerflame",
+      "fuzzAngle" : 360,
+      "inheritDamageFactor" :1,
+      "angleAdjust" : 180
+    },
+    {
+      "action" : "projectile",
+      "type" : "boomerflame",
+      "fuzzAngle" : 360,
+      "inheritDamageFactor" :1,
+      "angleAdjust" : 180
+    },
+    {
+      "action" : "projectile",
+      "type" : "boomerflame",
+      "fuzzAngle" : 360,
+      "inheritDamageFactor" :1,
+      "angleAdjust" : 180
+    },
+    {
+      "action" : "projectile",
+      "type" : "boomerflame",
+      "fuzzAngle" : 360,
+      "inheritDamageFactor" :1,
+      "angleAdjust" : 180
+    },
+    {
+      "action" : "projectile",
+      "type" : "boomerflame",
+      "fuzzAngle" : 360,
+      "inheritDamageFactor" :1,
+      "angleAdjust" : 180
+    }
+  ],
+  "power" : 10.0,
+  "damageKind" : "default"
+}
+
+

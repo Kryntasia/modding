@@ -1,0 +1,43 @@
+{
+  "objectName" : "earthrifter",
+  "printable" : false,
+  "rarity" : "Common",
+  
+  "price" : 0,
+
+   "description" : "This massive emplacement can be aimed to slowly bore through the earth in 8 directions - fires on receiving signal.",
+  "shortdescription" : "Earthrifter",
+  "race" : "generic",
+  "catagory" : "decorative",
+
+  "apexDescription" : "This massive emplacement can be aimed to slowly bore through the earth in 8 directions - fires on receiving signal.",
+  "avianDescription" : "This massive emplacement can be aimed to slowly bore through the earth in 8 directions - fires on receiving signal.",
+  "floranDescription" : "This massive emplacement can be aimed to slowly bore through the earth in 8 directions - fires on receiving signal.",
+  "glitchDescription" : "This massive emplacement can be aimed to slowly bore through the earth in 8 directions - fires on receiving signal.",
+  "humanDescription" : "This massive emplacement can be aimed to slowly bore through the earth in 8 directions - fires on receiving signal.",
+  "hylotlDescription" : "This massive emplacement can be aimed to slowly bore through the earth in 8 directions - fires on receiving signal.",
+
+  "inventoryIcon" : "bombicon.png",
+  "orientations" : [
+	{
+      "image" : "bomb.png:<color>.off.1",
+      "direction" : "right",
+       "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "scripts" : [ "earthrifter.lua" ],
+  "scriptDelta" : 5,
+  
+  "soundEffect" : "/sfx/objects/torch.wav",
+  "inboundNodes" : [ [0, 0] ],
+  
+   "animation" : "bomb.animation",
+  "animationParts" : {"switch" : "bomb.png"},
+  "animationPosition" : [16, 16]
+}

@@ -1,0 +1,46 @@
+{
+  "objectName" : "timebomb",
+  "printable" : false,
+  "rarity" : "Common",
+  
+  "price" : 0,
+
+   "description" : "Activating it starts a timer - can be turned off and picked up, but don't jostle it too much when it's active...",
+  "shortdescription" : "Time Bomb",
+  "race" : "generic",
+  "catagory" : "decorative",
+
+  "apexDescription" : "Activating it starts a timer - can be turned off and picked up, but don't jostle it too much when it's active...",
+  "avianDescription" : "Activating it starts a timer - can be turned off and picked up, but don't jostle it too much when it's active...",
+  "floranDescription" : "Activating it starts a timer - can be turned off and picked up, but don't jostle it too much when it's active...",
+  "glitchDescription" : "Activating it starts a timer - can be turned off and picked up, but don't jostle it too much when it's active...",
+  "humanDescription" : "Activating it starts a timer - can be turned off and picked up, but don't jostle it too much when it's active...",
+  "hylotlDescription" : "Activating it starts a timer - can be turned off and picked up, but don't jostle it too much when it's active...",
+
+  "inventoryIcon" : "bombicon.png",
+  "orientations" : [
+    {
+      "image" : "bomb.png:<color>.off",
+      "imagePosition" : [1, 0],
+      "frames" : 5,
+      "animationCycle" : 1,
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "fgAnchors" : [ [0, -1] ]
+    }
+  ],
+
+  "scripts" : [ "timebomb.lua" ],
+  "scriptDelta" : 5,
+  
+  "animation" : "bomb.animation",
+  "animationParts" : {
+    "switch" : "bomb.png"
+  },
+  "animationPosition" : [0, 0],
+  
+  "soundEffect" : "/sfx/objects/torch.wav",
+   
+"outboundNodes" : [ [0, 0] ],   
+  "inboundNodes" : [ [1, 0] ]
+}
