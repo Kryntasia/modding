@@ -1,0 +1,17 @@
+{
+    "input": [
+        {
+            "item": "titaniumbar",
+            "count": 16
+        }
+    ],
+    "output": {
+        "item": "berriumcarbinerifle",
+        "count": 1
+    },
+    "groups": [
+        "metalworkstation",
+        "weapons",
+        "all"
+    ]
+}

@@ -1,0 +1,31 @@
+{
+  "itemName" : "berriumcarbinerifle",
+  "inventoryIcon" : "berriumcarbinerifle.png",
+  "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "rare",
+  "description" : "A great carbine.",
+  "shortdescription" : "Berrium Carbine Rifle",
+  "image" : "berriumcarbinerifle.png",
+  "handPosition" : [-4, -1],
+  "firePosition" : [21, 2],
+  "recoilTime" : 0.1,
+  "level" : 3,
+  "tooltipKind" : "gun",
+  "weaponType" : "Carbine",
+  "fireTime" : 0.13,
+  "inaccuracy" : 0.025,
+  "twoHanded" : true,
+  "walkWhileFiring" : false,
+
+  "projectileType" : "berriumbullet-4",
+  "projectile" : {
+    "speed" : 75,
+    "life" : 3,
+    "power" : 0.80
+  },
+  "muzzleEffect" : {
+    "fireSound" : [ { "file" : "/sfx/berriumar5.wav" } ],
+    "animation" : "/animations/muzzleflash/berriumbulletmuzzle4/berriumbulletmuzzle4.animation"
+  }
+}
