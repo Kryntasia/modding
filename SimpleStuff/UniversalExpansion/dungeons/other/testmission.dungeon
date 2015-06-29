@@ -10,30 +10,39 @@
     "maxParts" : 100,
     "protected" : true
   },
-    "tiles" : [
-	{
+  "tiles" : [
+   {
       "value" : [255, 0, 220, 255],
       "comment" : "magic pinkppp, a no-op value"
     },
-  {
-"value" : [255, 0, 0, 255],
-"comment" : "foreground moonrock block",
-"brush" : [ [ "clear" ], [ "back", "moonrock" ], [ "front", "moonrock" ] ]
-},
-{
-      "value" : [0, 255, 0, 255],
+    {
+      "value" : [0, 0, 0, 255],
+      "rules" : [ [ "worldGenMustContainAirBackground" ], [ "allowOverdrawing" ] ],
+      "brush" : [ [ "clear" ] ]
+    },
+    {
+      "value" : [120, 120, 120, 255],
+      "rules" : [ [ "worldGenMustContainAirForeground" ], [ "allowOverdrawing" ] ]
+    },
+        {
+      "value" : [85, 255, 0, 255],
       "comment" : "Player Spawn",
       "brush" : [ [ "playerstart" ] ]
-    }
-	],
-	"parts" : [
+    },
+    {
+      "value" : [255, 255, 255, 255],
+      "rules" : [ [ "worldGenMustContainSolidBackground" ], [ "allowOverdrawing" ] ],
+      "brush" : [ [ "surface" ] ]
+    },
+    {
+  "value" : [255, 0, 0, 255],
+  "comment" : "foreground moonrock block",
+  "brush" : [ [ "clear" ], [ "back", "moonrock" ], [ "front", "moonrock" ] ]
+  }],
+   "parts" : [
     {
       "name" : "testmission",
-      "rules" : [
-        [ "maxSpawnCount", [1] ]
-      ],
-      "def" : [ "image", [ "testmission.png", "testmission-objects.png", "testmission-wires1.png"] ]
-    }
-  ]
-	
+       "rules" : [ ],
+      "def" : [ "image", [ "testmission.png", "testmission-objects.png", "testmission-wires1.png" ] ]
+    }]
 }

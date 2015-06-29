@@ -9,7 +9,7 @@
 "gravity" : 80,
 "worldSize" : [2000, 2000],
 "dungeonBaseHeight" : 1000,
-"dungeonSurfaceHeight" : 810,
+"dungeonSurfaceHeight" : 710,
 "ambientLightLevel" : [32, 32, 32],
 "biome" : "forest",
 "musicTrack" : "/music/arctic-battle2.ogg"
