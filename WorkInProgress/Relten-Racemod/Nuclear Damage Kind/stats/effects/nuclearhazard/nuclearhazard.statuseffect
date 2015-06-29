@@ -1,0 +1,16 @@
+{
+  "name" : "nuclearhazard",
+  "blockingStat" : "nuclearImmunity",
+
+  "effectConfig" : {},
+  "defaultDuration" : 5,
+
+  "scripts" : [
+    "nuclearhazard.lua"
+  ],
+
+  "animationConfig" : "nuclearhazard.animation",
+
+  "label" : "Burning",
+  "icon" : "/interface/statuses/fire.png"
+}

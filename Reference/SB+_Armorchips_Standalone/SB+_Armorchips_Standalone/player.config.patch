@@ -1,0 +1,16 @@
+[
+	{"op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "armorchip_howtoCodex"}},
+	{"op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "full_tier1"}},
+	{"op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "full_tier2"}},
+	{"op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "full_tier3"}},
+	{"op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "full_tier4"}},
+	{"op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "full_tier5"}},
+	{"op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "full_tier6"}},
+	{"op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "full_tier7"}},
+	{"op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "full_tier8"}},
+	{"op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "full_tier9"}},
+	{"op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "full_tier10"}},
+	{"op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "armorchip_transmute"}},
+	{"op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "enchanter"}},
+	{"op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "trading_automat"}}
+]

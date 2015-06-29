@@ -1,0 +1,11 @@
+{
+  "input" : [
+	{ "item" : "sermantiumbar",   "count" : 50},
+	{ "item" : "chaosorb",   "count" : 25},
+	{ "item" : "chaosalloy",   "count" : 50},
+	{ "item" : "money", "count" : 200000}
+  ],
+  "output" : { "item" : "sermantiumarmorhead", "count" : 1 },
+  "groups" : ["armors", "all" ]
+}
+

@@ -1,0 +1,33 @@
+{
+  "objectName" : "trading_automat",
+  "rarity" : "Common",
+  "race" : "generic",
+  "category" : "crafting",
+  "printable" : false,
+  "price" : 200,
+  "objectType" : "container",
+  "inventoryIcon" : "trading_automaticon.png",
+  "description" : "Trades your Equipemnt-Token for Armor Sets.",
+  "shortdescription" : "^orange;A.T.D. MK II^white;",
+  "subtitle" : "Armor Automatron",
+  "orientations" : [
+    {
+      "image" : "trading_automat.png",
+
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 2.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  "scripts" : [ "/objects/generic/trading_automat/trading_automat.lua" ],
+  "scriptDelta" : 5,
+  "recipeGroup" : "trading_automat",
+  "openSounds" : [ "/sfx/objects/locker_open.wav" ],
+  "slotCount" : 4,
+  "uiConfig" : "/interface/trading_automat/trading_automat.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600
+}

@@ -1,0 +1,10 @@
+{
+  "codexId" : "armorchip_howto",
+  "title" : "Armorchips for Dummies!",
+  "codexkind" : "codex",
+  "inventoryIcon" : "armorchip_howto.png",
+  "itemName" : "armorchip_howtoCodex",
+  "rarity" : "rare",
+  "description" : "Learn how to use the new Armor system in 3 simple steps.",
+  "shortdescription" : "Armorchips for Dummies!"
+}

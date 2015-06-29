@@ -1,0 +1,11 @@
+{
+  "input" : [
+	{ "item" : "mithrilliumbar",   "count" : 50},
+	{ "item" : "chaosorb",   "count" : 10},
+	{ "item" : "chaosalloy",   "count" : 25},
+	{ "item" : "money", "count" : 100000}
+  ],
+  "output" : { "item" : "mithrilliumarmorhead", "count" : 1 },
+  "groups" : ["armors", "all" ]
+}
+

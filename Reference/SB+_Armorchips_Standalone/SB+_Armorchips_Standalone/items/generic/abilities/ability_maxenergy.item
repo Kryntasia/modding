@@ -1,0 +1,7 @@
+{
+  "itemName" : "ability_maxenergy",
+  "rarity" : "Rare",
+  "inventoryIcon" : "ability_maxenergy.png",
+  "description" : "Used to upgrade your armor with the Increase Energy ability.",
+  "shortdescription" : "Maximum Energy Card"
+}

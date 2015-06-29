@@ -1,0 +1,34 @@
+{
+  "objectName" : "armorchip_transmute",
+  "rarity" : "Common",
+  "race" : "generic",
+  "category" : "crafting",
+  "printable" : false,
+  "price" : 200,
+  "objectType" : "container",
+  "inventoryIcon" : "armorchip_transmuteicon.png",
+  "description" : "Combines Armor, Energy and Healthchips to gain Equipment Tokens.",
+  "shortdescription" : "^orange;A.T.D.^white;",
+  "subtitle" : "Armorchip Transmutation",
+  "orientations" : [
+    {
+      "dualImage" : "armorchip_transmute.png",
+
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 2.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/generic/armorchip_transmute/armorchip_transmute.lua" ],
+  "scriptDelta" : 5,
+  "recipeGroup" : "armorchip_transmute",
+  "openSounds" : [ "/sfx/objects/locker_open.wav" ],
+  "slotCount" : 4,
+  "uiConfig" : "/interface/armorchip_transmute/armorchip_transmute.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600
+}

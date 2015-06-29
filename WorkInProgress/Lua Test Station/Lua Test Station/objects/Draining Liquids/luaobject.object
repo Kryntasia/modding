@@ -1,0 +1,40 @@
+{
+  "objectName" : "luaobject",
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "A comfortable durasteel chair.",
+  "shortdescription" : "Durasteel Chair",
+  "race" : "storage",
+  "category" : "furniture",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+  "price" : 375,
+ "scripts" :
+  [
+  "/objects/liquid.lua"
+  ],
+  "inventoryIcon" : "meowicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "meow.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+  "openSounds" : [ "/sfx/objects/chest_small_open.wav" ],
+  "closeSounds" : [ "/sfx/objects/chest_small_close.wav" ],
+  "scriptDelta" : 50,
+  "slotCount" : 64,
+  "uiConfig" : "/interface/chests/chest%slots%.config",
+  "autoCloseCooldown" : 3600,
+   "frameCooldown" : 5,
+   "inboundNodes" : [ [0, 1]],  
+  "interval" : 15
+
+}

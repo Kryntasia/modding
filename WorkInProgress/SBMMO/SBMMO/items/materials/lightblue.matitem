@@ -1,0 +1,12 @@
+{
+  "itemName" : "lightblue",
+  "rarity" : "Common",
+  "inventoryIcon" : "lightblue.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "Soft faded brick.",
+  "shortdescription" : "Soft Brick",
+  "glitchdescription" : "Statement. Brick.",
+  "florandescription" : "Bricksss.",
+
+  "materialId" : 753
+}

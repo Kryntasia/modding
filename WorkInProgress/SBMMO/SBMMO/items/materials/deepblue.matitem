@@ -1,0 +1,12 @@
+{
+  "itemName" : "deepbluefade",
+  "rarity" : "Common",
+  "inventoryIcon" : "deepblue.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "Soft faded brick.",
+  "shortdescription" : "Soft Brick",
+  "glitchdescription" : "Statement. Brick.",
+  "florandescription" : "Bricksss.",
+
+  "materialId" : 751
+}

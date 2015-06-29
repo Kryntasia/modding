@@ -1,0 +1,24 @@
+{
+  "materialId" : 760,
+  "materialName" : "darkblue",
+  "particleColor" : [103, 103, 103, 255],
+  "transparent" : true,
+  "itemDrop" : "darkblue",
+  "shortdescription" : "Pile of Eyes",
+  "description" : "A tumbling heap of squishy eyeballs.",
+  "footstepSound" : "/sfx/blocks/footstep_brains.wav",
+  "falling" : true,
+  "cascading" : true,
+  "health" : 2,
+  "category": "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "darkblue.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "multiColored" : false,
+    "occludesBelow" : true,
+    "zLevel" : 0
+  }
+}

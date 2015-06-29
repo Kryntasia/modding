@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "titaniumbar", "count" : 20 }
+  ],
+  "output" : { "item" : "full_tier3", "count" : 1 },
+  "groups" : [ "anvil", "armors", "all" ]
+}

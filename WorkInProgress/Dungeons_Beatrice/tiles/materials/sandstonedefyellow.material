@@ -1,0 +1,23 @@
+{
+  "materialId" : 4002,
+  "materialName" : "sandstonedefyellow",
+  "particleColor" : [215, 204, 137, 255],
+  "itemDrop" : "sandstoneblock",
+  "description" : "Bricks made from smooth sandstone.",
+  "shortdescription" : "Sandstone Bricks",
+  "glitchDescription" : "Statement. Sandstone bricks.",
+  "floranDescription" : "Sssandstone bricks.",
+  "footstepSound" : "/sfx/blocks/footstep_stone3.wav",
+  "health" : 4,
+  "category": "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "sandstonedefyellow.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : false,
+    "zLevel" : 0
+  }
+}

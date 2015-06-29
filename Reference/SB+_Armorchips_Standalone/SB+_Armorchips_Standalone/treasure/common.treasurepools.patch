@@ -1,0 +1,888 @@
+[
+{
+"op" : "add",
+"path" : "/weaponChestTreasure/-",
+"value" : 
+[0.5, {
+      "fill" : 
+		  [
+			{"pool" : "weapon"}
+		  ],
+      "poolRounds" : [[0.2, 1], [0.5, 2], [0.2, 3], [0.1, 4]],
+      "pool" : 
+		[
+			{"weight" : 0.7, "pool" : "basicTreasure"},
+			{"weight" : 0.1, "item" : "armor_t1"},
+			{"weight" : 0.1, "item" : "energy_t1"},
+			{"weight" : 0.1, "item" : "health_t1"}
+		]
+}]
+},
+{
+"op" : "add",
+"path" : "/weaponChestTreasure/-",
+"value" : 
+[1.5, {
+      "fill" : 
+		  [
+			{"pool" : "weapon"}
+		  ],
+      "poolRounds" : [[0.2, 1], [0.5, 2], [0.2, 3], [0.1, 4]],
+      "pool" : 
+		[
+			{"weight" : 0.7, "pool" : "basicTreasure"},
+			{"weight" : 0.1, "item" : "armor_t2"},
+			{"weight" : 0.1, "item" : "energy_t2"},
+			{"weight" : 0.1, "item" : "health_t2"}
+		]
+}]
+},
+{
+"op" : "add",
+"path" : "/weaponChestTreasure/-",
+"value" : 
+[2.5, {
+      "fill" : 
+		  [
+			{"pool" : "weapon"}
+		  ],
+      "poolRounds" : [[0.2, 1], [0.5, 2], [0.2, 3], [0.1, 4]],
+      "pool" : 
+		[
+			{"weight" : 0.7, "pool" : "basicTreasure"},
+			{"weight" : 0.1, "item" : "armor_t3"},
+			{"weight" : 0.1, "item" : "energy_t3"},
+			{"weight" : 0.1, "item" : "health_t3"}
+		]
+}]
+},
+{
+"op" : "add",
+"path" : "/weaponChestTreasure/-",
+"value" : 
+[3.5, {
+      "fill" : 
+		  [
+			{"pool" : "weapon"}
+		  ],
+      "poolRounds" : [[0.2, 1], [0.5, 2], [0.2, 3], [0.1, 4]],
+      "pool" : 
+		[
+			{"weight" : 0.7, "pool" : "basicTreasure"},
+			{"weight" : 0.1, "item" : "armor_t4"},
+			{"weight" : 0.1, "item" : "energy_t4"},
+			{"weight" : 0.1, "item" : "health_t4"}
+		]
+}]
+},
+{
+"op" : "add",
+"path" : "/weaponChestTreasure/-",
+"value" : 
+[4.5, {
+      "fill" : 
+		  [
+			{"pool" : "weapon"}
+		  ],
+      "poolRounds" : [[0.2, 1], [0.5, 2], [0.2, 3], [0.1, 4]],
+      "pool" : 
+		[
+			{"weight" : 0.7, "pool" : "basicTreasure"},
+			{"weight" : 0.1, "item" : "armor_t5"},
+			{"weight" : 0.1, "item" : "energy_t5"},
+			{"weight" : 0.1, "item" : "health_t5"}
+		]
+}]
+},
+{
+"op" : "add",
+"path" : "/weaponChestTreasure/-",
+"value" : 
+[5.5, {
+      "fill" : 
+		  [
+			{"pool" : "weapon"}
+		  ],
+      "poolRounds" : [[0.2, 1], [0.5, 2], [0.2, 3], [0.1, 4]],
+      "pool" : 
+		[
+			{"weight" : 0.7, "pool" : "basicTreasure"},
+			{"weight" : 0.1, "item" : "armor_t6"},
+			{"weight" : 0.1, "item" : "energy_t6"},
+			{"weight" : 0.1, "item" : "health_t6"}
+		]
+}]
+},
+{
+"op" : "add",
+"path" : "/weaponChestTreasure/-",
+"value" : 
+[6.0, {
+      "fill" : 
+		  [
+			{"pool" : "weapon"}
+		  ],
+      "poolRounds" : [[0.2, 1], [0.5, 2], [0.2, 3], [0.1, 4]],
+      "pool" : 
+		[
+			{"weight" : 0.7, "pool" : "basicTreasure"},
+			{"weight" : 0.1, "item" : "armor_t7"},
+			{"weight" : 0.1, "item" : "energy_t7"},
+			{"weight" : 0.1, "item" : "health_t7"}
+		]
+}]
+},
+{
+"op" : "add",
+"path" : "/weaponChestTreasure/-",
+"value" : 
+[7.0, {
+      "fill" : 
+		  [
+			{"pool" : "weapon"}
+		  ],
+      "poolRounds" : [[0.2, 1], [0.5, 2], [0.2, 3], [0.1, 4]],
+      "pool" : 
+		[
+			{"weight" : 0.7, "pool" : "basicTreasure"},
+			{"weight" : 0.1, "item" : "armor_t8"},
+			{"weight" : 0.1, "item" : "energy_t8"},
+			{"weight" : 0.1, "item" : "health_t8"}
+		]
+}]
+},
+{
+"op" : "add",
+"path" : "/weaponChestTreasure/-",
+"value" : 
+[8.0, {
+      "fill" : 
+		  [
+			{"pool" : "weapon"}
+		  ],
+      "poolRounds" : [[0.2, 1], [0.5, 2], [0.2, 3], [0.1, 4]],
+      "pool" : 
+		[
+			{"weight" : 0.7, "pool" : "basicTreasure"},
+			{"weight" : 0.1, "item" : "armor_t9"},
+			{"weight" : 0.1, "item" : "energy_t9"},
+			{"weight" : 0.1, "item" : "health_t9"}
+		]
+}]
+},
+{
+"op" : "add",
+"path" : "/weaponChestTreasure/-",
+"value" : 
+[9.0, {
+      "fill" : 
+		  [
+			{"pool" : "weapon"}
+		  ],
+      "poolRounds" : [[0.2, 1], [0.5, 2], [0.2, 3], [0.1, 4]],
+      "pool" : 
+		[
+			{"weight" : 0.7, "pool" : "basicTreasure"},
+			{"weight" : 0.1, "item" : "armor_t10"},
+			{"weight" : 0.1, "item" : "energy_t10"},
+			{"weight" : 0.1, "item" : "health_t10"}
+		]
+}]
+},
+{
+	"op" : "add",
+	"path" : "/techChestTreasure/-",
+	"value" : 
+		[0.5, {
+			"pool" : 
+			[
+				{"weight" : 0.4, "item" : "blanktechcard"},
+				{"weight" : 0.1, "item" : "teleportercore"},
+				{"weight" : 0.03, "item" : "ability_rage"},
+				{"weight" : 0.05, "item" : "ability_runboost"},
+				{"weight" : 0.05, "item" : "ability_jumpboost"},
+				{"weight" : 0.05, "item" : "ability_maxhealth"},
+				{"weight" : 0.05, "item" : "ability_maxenergy"},
+				{"weight" : 0.05, "item" : "ability_energyregeneration"},
+				{"weight" : 0.03, "item" : "ability_regeneration"},
+				{"weight" : 0.08, "item" : "ability_invisbility"},
+				{"weight" : 0.08, "item" : "ability_lowgrav"}
+			]
+		}	]
+},
+{
+	"op" : "add",
+	"path" : "/techChestTreasure/-",
+	"value" : 
+		[1.5, {
+			"pool" : 
+			[
+				{"weight" : 0.4, "item" : "blanktechcard"},
+				{"weight" : 0.1, "item" : "teleportercore"},
+				{"weight" : 0.03, "item" : "ability_rage"},
+				{"weight" : 0.05, "item" : "ability_runboost"},
+				{"weight" : 0.05, "item" : "ability_jumpboost"},
+				{"weight" : 0.05, "item" : "ability_maxhealth"},
+				{"weight" : 0.05, "item" : "ability_maxenergy"},
+				{"weight" : 0.05, "item" : "ability_energyregeneration"},
+				{"weight" : 0.03, "item" : "ability_regeneration"},
+				{"weight" : 0.08, "item" : "ability_invisbility"},
+				{"weight" : 0.08, "item" : "ability_lowgrav"}
+			]
+		}	]
+},
+{
+	"op" : "add",
+	"path" : "/techChestTreasure/-",
+	"value" : 
+		[2.5, {
+			"pool" : 
+			[
+				{"weight" : 0.4, "item" : "blanktechcard"},
+				{"weight" : 0.1, "item" : "teleportercore"},
+				{"weight" : 0.03, "item" : "ability_rage"},
+				{"weight" : 0.05, "item" : "ability_runboost"},
+				{"weight" : 0.05, "item" : "ability_jumpboost"},
+				{"weight" : 0.05, "item" : "ability_maxhealth"},
+				{"weight" : 0.05, "item" : "ability_maxenergy"},
+				{"weight" : 0.05, "item" : "ability_energyregeneration"},
+				{"weight" : 0.03, "item" : "ability_regeneration"},
+				{"weight" : 0.08, "item" : "ability_invisbility"},
+				{"weight" : 0.08, "item" : "ability_lowgrav"}
+			]
+		}	]
+},
+{
+	"op" : "add",
+	"path" : "/techChestTreasure/-",
+	"value" : 
+		[3.5, {
+			"pool" : 
+			[
+				{"weight" : 0.4, "item" : "blanktechcard"},
+				{"weight" : 0.1, "item" : "teleportercore"},
+				{"weight" : 0.03, "item" : "ability_rage"},
+				{"weight" : 0.05, "item" : "ability_runboost"},
+				{"weight" : 0.05, "item" : "ability_jumpboost"},
+				{"weight" : 0.05, "item" : "ability_maxhealth"},
+				{"weight" : 0.05, "item" : "ability_maxenergy"},
+				{"weight" : 0.05, "item" : "ability_energyregeneration"},
+				{"weight" : 0.03, "item" : "ability_regeneration"},
+				{"weight" : 0.08, "item" : "ability_invisbility"},
+				{"weight" : 0.08, "item" : "ability_lowgrav"}
+			]
+		}	]
+},
+{
+	"op" : "add",
+	"path" : "/techChestTreasure/-",
+	"value" : 
+		[4.5, {
+			"pool" : 
+			[
+				{"weight" : 0.4, "item" : "blanktechcard"},
+				{"weight" : 0.1, "item" : "teleportercore"},
+				{"weight" : 0.03, "item" : "ability_rage"},
+				{"weight" : 0.05, "item" : "ability_runboost"},
+				{"weight" : 0.05, "item" : "ability_jumpboost"},
+				{"weight" : 0.05, "item" : "ability_maxhealth"},
+				{"weight" : 0.05, "item" : "ability_maxenergy"},
+				{"weight" : 0.05, "item" : "ability_energyregeneration"},
+				{"weight" : 0.03, "item" : "ability_regeneration"},
+				{"weight" : 0.08, "item" : "ability_invisbility"},
+				{"weight" : 0.08, "item" : "ability_lowgrav"}
+			]
+		}	]
+},
+{
+	"op" : "add",
+	"path" : "/techChestTreasure/-",
+	"value" : 
+		[5.5, {
+			"pool" : 
+			[
+				{"weight" : 0.4, "item" : "blanktechcard"},
+				{"weight" : 0.1, "item" : "teleportercore"},
+				{"weight" : 0.03, "item" : "ability_rage"},
+				{"weight" : 0.05, "item" : "ability_runboost"},
+				{"weight" : 0.05, "item" : "ability_jumpboost"},
+				{"weight" : 0.05, "item" : "ability_maxhealth"},
+				{"weight" : 0.05, "item" : "ability_maxenergy"},
+				{"weight" : 0.05, "item" : "ability_energyregeneration"},
+				{"weight" : 0.03, "item" : "ability_regeneration"},
+				{"weight" : 0.08, "item" : "ability_invisbility"},
+				{"weight" : 0.08, "item" : "ability_lowgrav"}
+			]
+		}	]
+},
+{
+	"op" : "add",
+	"path" : "/techChestTreasure/-",
+	"value" : 
+		[6.0, {
+			"pool" : 
+			[
+				{"weight" : 0.4, "item" : "blanktechcard"},
+				{"weight" : 0.1, "item" : "teleportercore"},
+				{"weight" : 0.03, "item" : "ability_rage"},
+				{"weight" : 0.05, "item" : "ability_runboost"},
+				{"weight" : 0.05, "item" : "ability_jumpboost"},
+				{"weight" : 0.05, "item" : "ability_maxhealth"},
+				{"weight" : 0.05, "item" : "ability_maxenergy"},
+				{"weight" : 0.05, "item" : "ability_energyregeneration"},
+				{"weight" : 0.03, "item" : "ability_regeneration"},
+				{"weight" : 0.08, "item" : "ability_invisbility"},
+				{"weight" : 0.08, "item" : "ability_lowgrav"}
+			]
+		}	]
+},
+{
+	"op" : "add",
+	"path" : "/techChestTreasure/-",
+	"value" : 
+		[7.0, {
+			"pool" : 
+			[
+				{"weight" : 0.4, "item" : "blanktechcard"},
+				{"weight" : 0.1, "item" : "teleportercore"},
+				{"weight" : 0.03, "item" : "ability_rage"},
+				{"weight" : 0.05, "item" : "ability_runboost"},
+				{"weight" : 0.05, "item" : "ability_jumpboost"},
+				{"weight" : 0.05, "item" : "ability_maxhealth"},
+				{"weight" : 0.05, "item" : "ability_maxenergy"},
+				{"weight" : 0.05, "item" : "ability_energyregeneration"},
+				{"weight" : 0.03, "item" : "ability_regeneration"},
+				{"weight" : 0.08, "item" : "ability_invisbility"},
+				{"weight" : 0.08, "item" : "ability_lowgrav"}
+			]
+		}	]
+},
+{
+	"op" : "add",
+	"path" : "/techChestTreasure/-",
+	"value" : 
+		[8.0, {
+			"pool" : 
+			[
+				{"weight" : 0.4, "item" : "blanktechcard"},
+				{"weight" : 0.1, "item" : "teleportercore"},
+				{"weight" : 0.03, "item" : "ability_rage"},
+				{"weight" : 0.05, "item" : "ability_runboost"},
+				{"weight" : 0.05, "item" : "ability_jumpboost"},
+				{"weight" : 0.05, "item" : "ability_maxhealth"},
+				{"weight" : 0.05, "item" : "ability_maxenergy"},
+				{"weight" : 0.05, "item" : "ability_energyregeneration"},
+				{"weight" : 0.03, "item" : "ability_regeneration"},
+				{"weight" : 0.08, "item" : "ability_invisbility"},
+				{"weight" : 0.08, "item" : "ability_lowgrav"}
+			]
+		}	]
+},
+{
+	"op" : "add",
+	"path" : "/techChestTreasure/-",
+	"value" : 
+		[9.0, {
+			"pool" : 
+			[
+				{"weight" : 0.4, "item" : "blanktechcard"},
+				{"weight" : 0.1, "item" : "teleportercore"},
+				{"weight" : 0.03, "item" : "ability_rage"},
+				{"weight" : 0.05, "item" : "ability_runboost"},
+				{"weight" : 0.05, "item" : "ability_jumpboost"},
+				{"weight" : 0.05, "item" : "ability_maxhealth"},
+				{"weight" : 0.05, "item" : "ability_maxenergy"},
+				{"weight" : 0.05, "item" : "ability_energyregeneration"},
+				{"weight" : 0.03, "item" : "ability_regeneration"},
+				{"weight" : 0.08, "item" : "ability_invisbility"},
+				{"weight" : 0.08, "item" : "ability_lowgrav"}
+			]
+		}	]
+},
+{
+"op" : "add",
+"path" : "/basicChestTreasure/-",
+"value" : 
+[0.5, {
+      "fill" : 
+		  [
+			{"pool" : "weapon"}
+		  ],
+      "poolRounds" : [[0.2, 1], [0.5, 2], [0.2, 3], [0.1, 4]],
+      "pool" : 
+		[
+			{"weight" : 0.7, "pool" : "basicTreasure"},
+			{"weight" : 0.1, "item" : "armor_t1"},
+			{"weight" : 0.1, "item" : "energy_t1"},
+			{"weight" : 0.1, "item" : "health_t1"}
+		]
+}]
+},
+{
+"op" : "add",
+"path" : "/basicChestTreasure/-",
+"value" : 
+[1.5, {
+      "fill" : 
+		  [
+			{"pool" : "weapon"}
+		  ],
+      "poolRounds" : [[0.2, 1], [0.5, 2], [0.2, 3], [0.1, 4]],
+      "pool" : 
+		[
+			{"weight" : 0.7, "pool" : "basicTreasure"},
+			{"weight" : 0.1, "item" : "armor_t2"},
+			{"weight" : 0.1, "item" : "energy_t2"},
+			{"weight" : 0.1, "item" : "health_t2"}
+		]
+}]
+},
+{
+"op" : "add",
+"path" : "/basicChestTreasure/-",
+"value" : 
+[2.5, {
+      "fill" : 
+		  [
+			{"pool" : "weapon"}
+		  ],
+      "poolRounds" : [[0.2, 1], [0.5, 2], [0.2, 3], [0.1, 4]],
+      "pool" : 
+		[
+			{"weight" : 0.7, "pool" : "basicTreasure"},
+			{"weight" : 0.1, "item" : "armor_t3"},
+			{"weight" : 0.1, "item" : "energy_t3"},
+			{"weight" : 0.1, "item" : "health_t3"}
+		]
+}]
+},
+{
+"op" : "add",
+"path" : "/basicChestTreasure/-",
+"value" : 
+[3.5, {
+      "fill" : 
+		  [
+			{"pool" : "weapon"}
+		  ],
+      "poolRounds" : [[0.2, 1], [0.5, 2], [0.2, 3], [0.1, 4]],
+      "pool" : 
+		[
+			{"weight" : 0.7, "pool" : "basicTreasure"},
+			{"weight" : 0.1, "item" : "armor_t4"},
+			{"weight" : 0.1, "item" : "energy_t4"},
+			{"weight" : 0.1, "item" : "health_t4"}
+		]
+}]
+},
+{
+"op" : "add",
+"path" : "/basicChestTreasure/-",
+"value" : 
+[4.5, {
+      "fill" : 
+		  [
+			{"pool" : "weapon"}
+		  ],
+      "poolRounds" : [[0.2, 1], [0.5, 2], [0.2, 3], [0.1, 4]],
+      "pool" : 
+		[
+			{"weight" : 0.7, "pool" : "basicTreasure"},
+			{"weight" : 0.1, "item" : "armor_t5"},
+			{"weight" : 0.1, "item" : "energy_t5"},
+			{"weight" : 0.1, "item" : "health_t5"}
+		]
+}]
+},
+{
+"op" : "add",
+"path" : "/basicChestTreasure/-",
+"value" : 
+[5.5, {
+      "fill" : 
+		  [
+			{"pool" : "weapon"}
+		  ],
+      "poolRounds" : [[0.2, 1], [0.5, 2], [0.2, 3], [0.1, 4]],
+      "pool" : 
+		[
+			{"weight" : 0.7, "pool" : "basicTreasure"},
+			{"weight" : 0.1, "item" : "armor_t6"},
+			{"weight" : 0.1, "item" : "energy_t6"},
+			{"weight" : 0.1, "item" : "health_t6"}
+		]
+}]
+},
+{
+"op" : "add",
+"path" : "/basicChestTreasure/-",
+"value" : 
+[6.0, {
+      "fill" : 
+		  [
+			{"pool" : "weapon"}
+		  ],
+      "poolRounds" : [[0.2, 1], [0.5, 2], [0.2, 3], [0.1, 4]],
+      "pool" : 
+		[
+			{"weight" : 0.7, "pool" : "basicTreasure"},
+			{"weight" : 0.1, "item" : "armor_t7"},
+			{"weight" : 0.1, "item" : "energy_t7"},
+			{"weight" : 0.1, "item" : "health_t7"}
+		]
+}]
+},
+{
+"op" : "add",
+"path" : "/basicChestTreasure/-",
+"value" : 
+[7.0, {
+      "fill" : 
+		  [
+			{"pool" : "weapon"}
+		  ],
+      "poolRounds" : [[0.2, 1], [0.5, 2], [0.2, 3], [0.1, 4]],
+      "pool" : 
+		[
+			{"weight" : 0.7, "pool" : "basicTreasure"},
+			{"weight" : 0.1, "item" : "armor_t8"},
+			{"weight" : 0.1, "item" : "energy_t8"},
+			{"weight" : 0.1, "item" : "health_t8"}
+		]
+}]
+},
+{
+"op" : "add",
+"path" : "/basicChestTreasure/-",
+"value" : 
+[8.0, {
+      "fill" : 
+		  [
+			{"pool" : "weapon"}
+		  ],
+      "poolRounds" : [[0.2, 1], [0.5, 2], [0.2, 3], [0.1, 4]],
+      "pool" : 
+		[
+			{"weight" : 0.7, "pool" : "basicTreasure"},
+			{"weight" : 0.1, "item" : "armor_t9"},
+			{"weight" : 0.1, "item" : "energy_t9"},
+			{"weight" : 0.1, "item" : "health_t9"}
+		]
+}]
+},
+{
+"op" : "add",
+"path" : "/basicChestTreasure/-",
+"value" : 
+[9.0, {
+      "fill" : 
+		  [
+			{"pool" : "weapon"}
+		  ],
+      "poolRounds" : [[0.2, 1], [0.5, 2], [0.2, 3], [0.1, 4]],
+      "pool" : 
+		[
+			{"weight" : 0.7, "pool" : "basicTreasure"},
+			{"weight" : 0.1, "item" : "armor_t10"},
+			{"weight" : 0.1, "item" : "energy_t10"},
+			{"weight" : 0.1, "item" : "health_t10"}
+		]
+}]
+},
+{
+"op" : "add",
+"path" : "/smallChestTreasure/-",
+"value" : 
+[0.5, {
+      "fill" : 
+		  [
+			{"pool" : "weapon"}
+		  ],
+      "poolRounds" : [[0.2, 1], [0.5, 2], [0.2, 3], [0.1, 4]],
+      "pool" : 
+		[
+			{"weight" : 0.7, "pool" : "basicTreasure"},
+			{"weight" : 0.1, "item" : "armor_t1"},
+			{"weight" : 0.1, "item" : "energy_t1"},
+			{"weight" : 0.1, "item" : "health_t1"}
+		]
+}]
+},
+{
+"op" : "add",
+"path" : "/smallChestTreasure/-",
+"value" : 
+[1.5, {
+      "fill" : 
+		  [
+			{"pool" : "weapon"}
+		  ],
+      "poolRounds" : [[0.2, 1], [0.5, 2], [0.2, 3], [0.1, 4]],
+      "pool" : 
+		[
+			{"weight" : 0.7, "pool" : "basicTreasure"},
+			{"weight" : 0.1, "item" : "armor_t2"},
+			{"weight" : 0.1, "item" : "energy_t2"},
+			{"weight" : 0.1, "item" : "health_t2"}
+		]
+}]
+},
+{
+"op" : "add",
+"path" : "/smallChestTreasure/-",
+"value" : 
+[2.5, {
+      "fill" : 
+		  [
+			{"pool" : "weapon"}
+		  ],
+      "poolRounds" : [[0.2, 1], [0.5, 2], [0.2, 3], [0.1, 4]],
+      "pool" : 
+		[
+			{"weight" : 0.7, "pool" : "basicTreasure"},
+			{"weight" : 0.1, "item" : "armor_t3"},
+			{"weight" : 0.1, "item" : "energy_t3"},
+			{"weight" : 0.1, "item" : "health_t3"}
+		]
+}]
+},
+{
+"op" : "add",
+"path" : "/smallChestTreasure/-",
+"value" : 
+[3.5, {
+      "fill" : 
+		  [
+			{"pool" : "weapon"}
+		  ],
+      "poolRounds" : [[0.2, 1], [0.5, 2], [0.2, 3], [0.1, 4]],
+      "pool" : 
+		[
+			{"weight" : 0.7, "pool" : "basicTreasure"},
+			{"weight" : 0.1, "item" : "armor_t4"},
+			{"weight" : 0.1, "item" : "energy_t4"},
+			{"weight" : 0.1, "item" : "health_t4"}
+		]
+}]
+},
+{
+"op" : "add",
+"path" : "/smallChestTreasure/-",
+"value" : 
+[4.5, {
+      "fill" : 
+		  [
+			{"pool" : "weapon"}
+		  ],
+      "poolRounds" : [[0.2, 1], [0.5, 2], [0.2, 3], [0.1, 4]],
+      "pool" : 
+		[
+			{"weight" : 0.7, "pool" : "basicTreasure"},
+			{"weight" : 0.1, "item" : "armor_t5"},
+			{"weight" : 0.1, "item" : "energy_t5"},
+			{"weight" : 0.1, "item" : "health_t5"}
+		]
+}]
+},
+{
+"op" : "add",
+"path" : "/smallChestTreasure/-",
+"value" : 
+[5.5, {
+      "fill" : 
+		  [
+			{"pool" : "weapon"}
+		  ],
+      "poolRounds" : [[0.2, 1], [0.5, 2], [0.2, 3], [0.1, 4]],
+      "pool" : 
+		[
+			{"weight" : 0.7, "pool" : "basicTreasure"},
+			{"weight" : 0.1, "item" : "armor_t6"},
+			{"weight" : 0.1, "item" : "energy_t6"},
+			{"weight" : 0.1, "item" : "health_t6"}
+		]
+}]
+},
+{
+"op" : "add",
+"path" : "/smallChestTreasure/-",
+"value" : 
+[6.0, {
+      "fill" : 
+		  [
+			{"pool" : "weapon"}
+		  ],
+      "poolRounds" : [[0.2, 1], [0.5, 2], [0.2, 3], [0.1, 4]],
+      "pool" : 
+		[
+			{"weight" : 0.7, "pool" : "basicTreasure"},
+			{"weight" : 0.1, "item" : "armor_t7"},
+			{"weight" : 0.1, "item" : "energy_t7"},
+			{"weight" : 0.1, "item" : "health_t7"}
+		]
+}]
+},
+{
+"op" : "add",
+"path" : "/smallChestTreasure/-",
+"value" : 
+[7.0, {
+      "fill" : 
+		  [
+			{"pool" : "weapon"}
+		  ],
+      "poolRounds" : [[0.2, 1], [0.5, 2], [0.2, 3], [0.1, 4]],
+      "pool" : 
+		[
+			{"weight" : 0.7, "pool" : "basicTreasure"},
+			{"weight" : 0.1, "item" : "armor_t8"},
+			{"weight" : 0.1, "item" : "energy_t8"},
+			{"weight" : 0.1, "item" : "health_t8"}
+		]
+}]
+},
+{
+"op" : "add",
+"path" : "/smallChestTreasure/-",
+"value" : 
+[8.0, {
+      "fill" : 
+		  [
+			{"pool" : "weapon"}
+		  ],
+      "poolRounds" : [[0.2, 1], [0.5, 2], [0.2, 3], [0.1, 4]],
+      "pool" : 
+		[
+			{"weight" : 0.7, "pool" : "basicTreasure"},
+			{"weight" : 0.1, "item" : "armor_t9"},
+			{"weight" : 0.1, "item" : "energy_t9"},
+			{"weight" : 0.1, "item" : "health_t9"}
+		]
+}]
+},
+{
+"op" : "add",
+"path" : "/smallChestTreasure/-",
+"value" : 
+[9.0, {
+      "fill" : 
+		  [
+			{"pool" : "weapon"}
+		  ],
+      "poolRounds" : [[0.2, 1], [0.5, 2], [0.2, 3], [0.1, 4]],
+      "pool" : 
+		[
+			{"weight" : 0.7, "pool" : "basicTreasure"},
+			{"weight" : 0.1, "item" : "armor_t10"},
+			{"weight" : 0.1, "item" : "energy_t10"},
+			{"weight" : 0.1, "item" : "health_t10"}
+		]
+}]
+},
+{ 
+    "op" : "add", 
+    "path" : "/chestMoney/0",
+    "value" : 
+    [6.9, {
+      "poolRounds" : [[0.65, 1], [0.3, 2], [0.05, 3]],
+      "pool" : [
+        {"weight" : 0.2, "item" : ["money", 200]},
+        {"weight" : 0.6, "item" : ["money", 350]},
+        {"weight" : 0.2, "item" : ["money", 800]}
+      ]
+    }]
+  },
+  { 
+    "op" : "add", 
+    "path" : "/chestMoney/0",
+    "value" : 
+    [7.9, {
+      "poolRounds" : [[0.65, 1], [0.3, 2], [0.05, 3]],
+      "pool" : [
+        {"weight" : 0.2, "item" : ["money", 300]},
+        {"weight" : 0.6, "item" : ["money", 550]},
+        {"weight" : 0.2, "item" : ["money", 1000]}
+      ]
+    }]
+  },
+  { 
+    "op" : "add", 
+    "path" : "/chestMoney/0",
+    "value" : 
+    [8.9, {
+      "poolRounds" : [[0.65, 1], [0.3, 2], [0.05, 3]],
+      "pool" : [
+        {"weight" : 0.2, "item" : ["money", 400]},
+        {"weight" : 0.6, "item" : ["money", 750]},
+        {"weight" : 0.2, "item" : ["money", 1200]}
+      ]
+    }]
+  },
+  { 
+    "op" : "add", 
+    "path" : "/chestMoney/0",
+    "value" : 
+    [9.9, {
+      "poolRounds" : [[0.65, 1], [0.3, 2], [0.05, 3]],
+      "pool" : [
+        {"weight" : 0.2, "item" : ["money", 500]},
+        {"weight" : 0.6, "item" : ["money", 1000]},
+        {"weight" : 0.2, "item" : ["money", 1500]}
+      ]
+    }]
+  },
+  { 
+    "op" : "add", 
+    "path" : "/money/0",
+    "value" : 
+    [6.9, {
+      "poolRounds" : [[0.65, 1], [0.3, 2], [0.05, 3]],
+      "pool" : [
+        {"weight" : 0.2, "item" : ["money", 75]},
+        {"weight" : 0.6, "item" : ["money", 175]},
+        {"weight" : 0.2, "item" : ["money", 400]}
+      ]
+    }]
+  },
+  { 
+    "op" : "add", 
+    "path" : "/money/0",
+    "value" : 
+    [7.9, {
+      "poolRounds" : [[0.65, 1], [0.3, 2], [0.05, 3]],
+      "pool" : [
+        {"weight" : 0.2, "item" : ["money", 125]},
+        {"weight" : 0.6, "item" : ["money", 275]},
+        {"weight" : 0.2, "item" : ["money", 600]}
+      ]
+    }]
+  },
+  { 
+    "op" : "add", 
+    "path" : "/money/0",
+    "value" : 
+    [8.9, {
+      "poolRounds" : [[0.65, 1], [0.3, 2], [0.05, 3]],
+      "pool" : [
+        {"weight" : 0.2, "item" : ["money", 200]},
+        {"weight" : 0.6, "item" : ["money", 375]},
+        {"weight" : 0.2, "item" : ["money", 800]}
+      ]
+    }]
+  },
+  { 
+    "op" : "add", 
+    "path" : "/money/0",
+    "value" : 
+    [9.9, {
+      "poolRounds" : [[0.65, 1], [0.3, 2], [0.05, 3]],
+      "pool" : [
+        {"weight" : 0.2, "item" : ["money", 300]},
+        {"weight" : 0.6, "item" : ["money", 575]},
+        {"weight" : 0.2, "item" : ["money", 1000]}
+      ]
+    }]
+}
+
+]
+	

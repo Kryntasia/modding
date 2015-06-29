@@ -1,0 +1,7 @@
+{
+  "itemName" : "ability_rage",
+  "rarity" : "Rare",
+  "inventoryIcon" : "ability_rage.png",
+  "description" : "Used to upgrade your armor with the Rage ability.",
+  "shortdescription" : "Rage Card"
+}

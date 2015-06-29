@@ -1,0 +1,5 @@
+[{
+	"op" : "replace",
+	"path" : "/orientations/0/spaces",
+	"value" : [ [0, 0], [0, 0], [0, 0], [0, 0] ]
+}]

@@ -1,0 +1,7 @@
+{
+  "itemName" : "energy_t5",
+  "rarity" : "Rare",
+  "inventoryIcon" : "energy_t5.png",
+  "description" : "Used to transfer energy-value to equipment.",
+  "shortdescription" : "T5 Energy Card"
+}

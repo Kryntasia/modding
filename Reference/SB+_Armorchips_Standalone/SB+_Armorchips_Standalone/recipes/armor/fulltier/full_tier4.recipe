@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "durasteelbar", "count" : 30 }
+  ],
+  "output" : { "item" : "full_tier4", "count" : 1 },
+  "groups" : [ "anvil", "armors", "all" ]
+}

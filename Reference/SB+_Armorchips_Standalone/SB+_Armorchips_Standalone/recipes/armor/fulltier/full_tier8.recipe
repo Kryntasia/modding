@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "chaosshard", "count" : 120 }
+  ],
+  "output" : { "item" : "full_tier8", "count" : 1 },
+  "groups" : [ "anvil", "armors", "all" ]
+}

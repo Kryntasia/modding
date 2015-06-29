@@ -1,0 +1,7 @@
+{
+  "itemName" : "ability_invisibility",
+  "rarity" : "Rare",
+  "inventoryIcon" : "ability_invisibility.png",
+  "description" : "Used to upgrade your armor with the Invisibility ability.",
+  "shortdescription" : "Invisibility Card"
+}

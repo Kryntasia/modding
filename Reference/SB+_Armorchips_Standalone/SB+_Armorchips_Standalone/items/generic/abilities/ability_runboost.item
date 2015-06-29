@@ -1,0 +1,7 @@
+{
+  "itemName" : "ability_runboost",
+  "rarity" : "Rare",
+  "inventoryIcon" : "ability_runboost.png",
+  "description" : "Used to upgrade your armor with the Speed Boost ability.",
+  "shortdescription" : "Speed Boost Card"
+}

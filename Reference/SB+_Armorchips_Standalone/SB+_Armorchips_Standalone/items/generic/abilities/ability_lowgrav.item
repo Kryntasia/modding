@@ -1,0 +1,7 @@
+{
+  "itemName" : "ability_lowgrav",
+  "rarity" : "Rare",
+  "inventoryIcon" : "ability_lowgrav.png",
+  "description" : "Used to upgrade your armor with the Low Gravity ability.",
+  "shortdescription" : "Low Gravity Card"
+}

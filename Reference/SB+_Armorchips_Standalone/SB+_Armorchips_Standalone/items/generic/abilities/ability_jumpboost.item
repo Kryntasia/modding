@@ -1,0 +1,7 @@
+{
+  "itemName" : "ability_jumpboost",
+  "rarity" : "Rare",
+  "inventoryIcon" : "ability_jumpboost.png",
+  "description" : "Used to upgrade your armor with the Jumping Boost ability.",
+  "shortdescription" : "Jumping Boost Card"
+}

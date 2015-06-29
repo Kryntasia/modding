@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "imperviumcompound", "count" : 15 },
+	{ "item" : "feroziumcompound", "count" : 15},
+	{ "item" : "ceruliumcompound", "count" : 15}
+  ],
+  "output" : { "item" : "full_tier6", "count" : 1 },
+  "groups" : [ "anvil", "armors", "all" ]
+}

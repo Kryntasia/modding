@@ -1,0 +1,11 @@
+{
+  "input" : [
+	{ "item" : "kaltrosbar",   "count" : 50},
+	{ "item" : "chaosorb",   "count" : 75},
+	{ "item" : "chaosalloy",   "count" : 100},
+	{ "item" : "money", "count" : 400000}
+  ],
+  "output" : { "item" : "kaltrosarmorchest", "count" : 1 },
+  "groups" : [ "armors", "all" ]
+}
+

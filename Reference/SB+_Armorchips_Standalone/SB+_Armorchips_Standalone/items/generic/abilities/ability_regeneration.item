@@ -1,0 +1,7 @@
+{
+  "itemName" : "ability_regeneration",
+  "rarity" : "Rare",
+  "inventoryIcon" : "ability_regeneration.png",
+  "description" : "Used to upgrade your armor with the Health Regeneration ability.",
+  "shortdescription" : "Health Regeneration Card"
+}

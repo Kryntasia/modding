@@ -1,0 +1,12 @@
+[
+{
+	"op" : "replace",
+	"path" : "/enableCommandsAtLevel/2",
+	"value" : ["upgradeShip3", "giveWiretool"]
+	},
+	{
+		"op" : "replace",
+		"path" : "/enableCommandsAtLevel/4",
+		"value" : []
+	}
+]

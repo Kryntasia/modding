@@ -1,0 +1,31 @@
+Pants - Frontliner
+Breastplate - Frontliner
+Head - Synthezizer
+
+Colors:
+
+pants.baseHex:
+
+C0754B (Light Brown)
+A85636 (Darkest Brown)
+E0965C (Lightest Brown)
+EFE44C (Gold)
+1A1A1A (Pitch Black)
+605C54 (Light Grey)
+353535 (Dark Grey)
+754C23 (Dark Brown)
+A47844 (Middle Brown)
+6F2919 (Solid Brown)
+
+pants.baseRGB:
+
+192, 117, 75 (Light Brown)
+168, 86,  54 (Darkest Brown)
+224, 150, 90 (Lightest Brown)
+239, 228, 76 (Gold)
+26,	 26,  26 (Pitch Black)
+96,	 92,  84 (Light Grey)
+53,	 53,  53 (Dark Grey)
+117, 76,  35 (Dark Brown)
+164, 120, 68 (Middle Brown)
+111, 41,  25 (Solid Brown)

@@ -1,0 +1,614 @@
+{
+  "metadata" : {
+    "name" : "opera",
+    "species" : "generic",
+    "rules" : [],
+    "gravity" : 80,
+    "anchor" : ["opera"],
+    "maxRadius" : 1,
+    "maxParts" : 1,
+    "protected" : true
+},
+
+"tiles" : 
+[
+{
+  "value" : [255, 0, 220, 255],
+  "comment" : "Pink no-op value"
+},
+{
+  "value" : [0, 0, 0, 255],
+   "rules" : [ [ "worldGenMustContainAirBackground" ], [ "allowOverdrawing" ] ],
+  "brush" : [ [ "clear" ] ]
+},
+{
+  "value" : [255, 255, 255, 255],
+  "comment" : "Invisible",
+  "brush" : [["back", "packeddirt"], ["front", "invisible"]]
+},
+{
+  "value" : [255, 128, 0, 255],
+  "comment" : "Sand F/B",
+  "rules" : [ [ "allowOverdrawing" ] ],
+  "brush" : [["clear"], ["back", "sand"], ["front", "sand"]]
+},
+{
+  "value" : [191, 96, 0, 255],
+  "comment" : "Sand B",
+  "rules" : [ [ "allowOverdrawing" ] ],
+  "brush" : [["clear"], ["back", "sand"]]
+},
+{
+  "value" : [47, 68, 212, 255],
+  "comment" : "Orange Sandstone -- Needs Add",
+  "brush" : [["clear"], ["back", "sandstoneorange"]]
+},
+{
+  "value" : [128, 64, 0, 255],
+  "comment" : "Sandstone F/B",
+  "rules" : [ [ "allowOverdrawing" ] ],
+  "brush" : [["clear"], ["back", "sandstone01"], ["front", "sandstone01"]]
+},
+{
+  "value" : [128, 128, 128, 255],
+  "comment" : "Fadestone F/B -- Needs Add",
+  "rules" : [ [ "allowOverdrawing" ] ],
+  "brush" : [["clear"], ["back", "fadewhite"], ["front", "fadewhite"]]
+},
+{
+  "value" : [95, 95, 95, 255],
+  "comment" : "Fadestone B -- Needs Add",
+  "rules" : [ [ "allowOverdrawing" ] ],
+  "brush" : [["clear"],["back", "fadewhite"]]
+},
+{
+  "value" : [64, 0, 0, 255],
+  "comment" : "Packed Dirt F/B",
+  "rules" : [ [ "allowOverdrawing" ] ],
+  "brush" : [["clear"], ["back", "packeddirt"]]
+},
+{
+  "value" : [128, 0, 0, 255],
+  "comment" : "Packed Dirt B",
+  "rules" : [ [ "allowOverdrawing" ] ],
+  "brush" : [["clear"], ["back", "packeddirt"], ["front", "packeddirt"]]
+},
+{
+  "value" : [255, 128, 64, 255],
+  "comment" : "Sandstonewhite B -- Needs Add",
+  "rules" : [ [ "allowOverdrawing" ] ],
+  "brush" : [["clear"], ["back", "sandstoneyellow"]]
+},
+{
+  "value" : [254, 128, 64, 255],
+  "comment" : "Sandstonewhite B -- Needs Add",
+  "rules" : [ [ "allowOverdrawing" ] ],
+  "brush" : [["clear"], ["front", "sandstoneyellow"], ["back", "sandstoneyellow"]]
+},
+{
+  "value" : [64, 32, 0, 255],
+  "comment" : "Wood B",
+  "rules" : [ [ "allowOverdrawing" ] ],
+  "brush" : [["clear"], ["back", "darkwood"]]
+},
+{
+  "value" : [90, 105, 232, 255],
+  "comment" : "Tombbrick3",
+  "brush" : [["clear"], ["back", "tombbrick3"]]
+},
+{
+  "value" : [106, 53, 0, 255],
+  "comment" : "Wood F/B",
+  "rules" : [ [ "allowOverdrawing" ] ],
+  "brush" : [["clear"], ["back", "darkwood"], ["front", "darkwood"]]
+},
+{
+  "value" : [255, 201, 14, 255],
+  "comment" : "Yellow Sandstone B -- Needs Add",
+  "rules" : [ [ "allowOverdrawing" ] ],
+  "brush" : [["clear"], ["back", "sandstonedefyellow"]]
+},
+{
+  "value" : [112, 146, 190, 255],
+  "comment" : "Fence B",
+  "rules" : [ [ "allowOverdrawing" ] ],
+  "brush" : [["clear"], ["back", "fence"]]
+},
+{
+  "value" : [83, 122, 176, 255],
+  "comment" : "Crosshatch B -- Needs Add Maybe",
+  "rules" : [ [ "allowOverdrawing" ] ],
+  "brush" : [["clear"], ["back", "crosshatch"]]
+},
+{
+  "value" : [227, 176, 0, 255],
+  "comment" : "Yellow Sandstone F/B",
+  "rules" : [ [ "allowOverdrawing" ] ],
+  "brush" : [["clear"], ["back", "sandstonedefyellow"], ["front", "sandstonedefyellow"]]
+},
+{
+  "value" : [34, 177, 76, 255],
+  "comment" : "Plantmatter F/B",
+  "rules" : [ [ "allowOverdrawing" ] ],
+  "brush" : [["clear"], ["back", "plantmatter"], ["front", "plantmatter"]]
+},
+{
+  "value" : [181, 230, 29, 255],
+  "comment" : "Plantmatter B",
+  "rules" : [ [ "allowOverdrawing" ] ],
+  "brush" : [["clear"], ["back", "plantmatter"]]
+},
+{
+  "value" : [63, 72, 204, 255],
+  "comment" : "Blue Sandstone F/B -- Needs Add",
+  "rules" : [ [ "allowOverdrawing" ] ],
+  "brush" : [["clear"], ["back", "sandstoneblue"], ["front", "sandstoneblue"]]
+},
+{
+  "value" : [0, 162, 232, 255],
+  "comment" : "Blue Sandstone B -- Needs Add",
+  "rules" : [ [ "allowOverdrawing" ] ],
+  "brush" : [["clear"], ["back", "sandstoneblue"]]
+},
+{
+  "value" : [185, 122, 87, 255],
+  "comment" : "Dirt F/B",
+  "rules" : [ [ "allowOverdrawing" ] ],
+  "brush" : [["clear"], ["back", "dirt"], ["front", "dirt", "tilled"]]
+},
+{
+  "value" : [255, 174, 201, 255],
+  "comment" : "Playerspawn -- Black",
+  "brush" : [["playerstart"]]
+},
+{
+  "value" : [255, 255, 0, 255],
+  "comment" : "Classic Fountain",
+  "brush" : [["object", "classicfountain", {"direction" : "right"}]]
+},
+{
+  "value" : [254, 255, 0, 255],
+  "comment" : "Basket",
+  "brush" : [["object", "wickerbasket4", {"direction" : "left"}]]
+},
+{
+  "value" : [253, 255, 0, 255],
+  "comment" : "Wooden Platform",
+  "brush" : [["front", "platform"]]
+},
+{
+  "value" : [252, 255, 0, 255],
+  "comment" : "Small Basket",
+  "brush" : [["object", "wickerbasket3", {"direction" : "left"}]]
+},
+{
+  "value" : [251, 255, 0, 255],
+  "comment" : "Thick Basket",
+  "brush" : [["object", "wickerbasket5", {"direction" : "left"}]]
+},
+{
+  "value" : [250, 255, 0, 255],
+  "comment" : "Box 1",
+  "brush" : [["object", "box1", {"direction" : "left"}]]
+},
+{
+  "value" : [249, 255, 0, 255],
+  "comment" : "Box 2",
+  "brush" : [["object", "box2", {"direction" : "left"}]]
+},
+{
+  "value" : [248, 255, 0, 255],
+  "comment" : "Wooden Crate 2",
+  "brush" : [["object", "woodencrate2", {"direction" : "right"}]]
+},
+{
+  "value" : [247, 255, 0, 255],
+  "comment" : "Small Wooden Crate 1",
+  "brush" : [["object", "smallwoodencrate", {"direction" : "right"}]]
+},
+{
+  "value" : [246, 255, 0, 255],
+  "comment" : "Large Wooden Crate 1",
+  "brush" : [["object", "largewoodencrate", {"direction" : "right"}]]
+},
+{
+  "value" : [245, 255, 0, 255],
+  "comment" : "Tribalcabinet 1",
+  "brush" : [["object", "tribalcabinet1", {"direction" : "right"}]]
+},
+{
+  "value" : [244, 255, 0, 255],
+  "comment" : "Medieval Counter",
+  "brush" : [["object", "medievalcounter", {"direction" : "left"}]]
+},
+{
+  "value" : [243, 255, 0, 255],
+  "comment" : "Classic Pillar",
+  "brush" : [["object", "classicpillarsmall", {"direction" : "left"}]]
+},
+{
+  "value" : [242, 255, 0, 255],
+  "comment" : "Wood Door",
+  "brush" : [["object", "wooddoor", {"direction" : "left"}]]
+},
+{
+  "value" : [241, 255, 0, 255],
+  "comment" : "Table",
+  "brush" : [["object", "classictable", {"direction" : "left"}]]
+},
+{
+  "value" : [240, 255, 0, 255],
+  "comment" : "Bed",
+  "brush" : [["object", "tribalbed2", {"direction" : "right"}]]
+},
+{
+  "value" : [239, 255, 0, 255],
+  "comment" : "Talljar 2",
+  "brush" : [["object", "talljar2", {"direction" : "left"}]]
+},
+{
+  "value" : [238, 255, 0, 255],
+  "comment" : "Smalljar 1",
+  "brush" : [["object", "smalljar1", {"direction" : "left"}]]
+},
+{
+  "value" : [237, 255, 0, 255],
+  "comment" : "Wooden Crate Gold Filled",
+  "brush" : [["object", "woodencrategoldfilled", {"direction" : "right"}]]
+},
+{
+  "value" : [236, 255, 0, 255],
+  "comment" : "Plant Urn 3",
+  "brush" : [["object", "planturn3", {"direction" : "left"}]]
+},
+{
+  "value" : [235, 255, 0, 255],
+  "comment" : "Plant Urn 1",
+  "brush" : [["object", "planturn1", {"direction" : "left"}]]
+},
+{
+  "value" : [234, 255, 0, 255],
+  "comment" : "Plant Urn 2",
+  "brush" : [["object", "planturn2", {"direction" : "left"}]]
+},
+{
+  "value" : [233, 255, 0, 255],
+  "comment" : "Clay Pot 3",
+  "brush" : [["object", "claypot3", {"direction" : "left"}]]
+},
+{
+  "value" : [232, 255, 0, 255],
+  "comment" : "Safe",
+  "brush" : [["object", "safe", {"direction" : "right"}]]
+},
+{
+  "value" : [231, 255, 0, 255],
+  "comment" : "Chair",
+  "brush" : [["object", "woodchair", {"direction" : "left"}]]
+},
+{
+  "value" : [230, 255, 0, 255],
+  "comment" : "Candle",
+  "brush" : [["object", "medievalcandle", {"direction" : "left"}]]
+},
+{
+  "value" : [229, 255, 0, 255],
+  "comment" : "Glitch Codex",
+  "brush" : [["object", "medievalcodex", {"direction" : "left"}]]
+},
+{
+  "value" : [228, 255, 0, 255],
+  "comment" : "Globe",
+  "brush" : [["object", "medievalglobe", {"direction" : "left"}]]
+},
+{
+  "value" : [227, 255, 0, 255],
+  "comment" : "Tall Jar 1",
+  "brush" : [["object", "talljar1", {"direction" : "left"}]]
+},
+{
+  "value" : [226, 255, 0, 255],
+  "comment" : "Medieval Lamp",
+  "brush" : [["object", "medievallamp", {"direction" : "left"}]]
+},
+{
+  "value" : [225, 255, 0, 255],
+  "comment" : "Clay Pot 1",
+  "brush" : [["object", "claypot1", {"direction" : "left"}]]
+},
+{
+  "value" : [224, 255, 0, 255],
+  "comment" : "Golden Lamp",
+  "brush" : [["object", "lamp", {"direction" : "right"}]]
+},
+{
+  "value" : [223, 255, 0, 255],
+  "comment" : "Medieval Torch",
+  "brush" : [[ "clear" ], ["object", "medievaltorch", {"direction" : "left"}]]
+},
+{
+  "value" : [222, 255, 0, 255],
+  "comment" : "Treasure Chest",
+  "brush" : [["object", "treasurechest", {"direction" : "right"}]]
+},
+{
+  "value" : [221, 255, 0, 255],
+  "comment" : "Oil Lamp",
+  "brush" : [["object", "tier1light", {"direction" : "left"}]]
+},
+{
+  "value" : [220, 255, 0, 255],
+  "comment" : "Cross Hatch F",
+  "brush" : [["front", "crosshatch"]]
+},
+{
+  "value" : [219, 255, 0, 255],
+  "comment" : "Bear Plushie",
+  "brush" : [["object", "bearplush", {"direction" : "right"}]]
+},
+{
+  "value" : [218, 255, 0, 255],
+  "comment" : "Hula Girl",
+  "brush" : [["object", "hulagirl", {"direction" : "left"}]]
+},
+{
+  "value" : [217, 255, 0, 255],
+  "comment" : "Gold Jug",
+  "brush" : [["object", "goldvase2", {"direction" : "right"}]]
+},
+{
+  "value" : [216, 255, 0, 255],
+  "comment" : "Plate",
+  "brush" : [["object", "medievalplate", {"direction" : "left"}]]
+},
+{
+  "value" : [215, 255, 0, 255],
+  "comment" : "Cash Register",
+  "brush" : [["object", "medievalregister", {"direction" : "right"}]]
+},
+{
+  "value" : [214, 255, 0, 255],
+  "comment" : "Gold Vase 5",
+  "brush" : [["object", "goldvase5", {"direction" : "left"}]]
+},
+{
+  "value" : [213, 255, 0, 255],
+  "comment" : "Classic Glass",
+  "brush" : [["object", "classicglass", {"direction" : "left"}]]
+},
+{
+  "value" : [212, 255, 0, 255],
+  "comment" : "Bug Glass",
+  "brush" : [["object", "phoenixfly", {"direction" : "left"}]]
+},
+{
+  "value" : [211, 255, 0, 255],
+  "comment" : "Hourglass",
+  "brush" : [["object", "hourglass", {"direction" : "left"}]]
+},
+{
+  "value" : [210, 255, 0, 255],
+  "comment" : "Grapes",
+  "brush" : [["object", "grapesseed", {"direction" : "right", "parameters" : { "startingStage" : 3 }}]]
+},
+{
+  "value" : [209, 255, 0, 255],
+  "comment" : "Treasure Chest",
+  "brush" : [["object", "treasurechest", {"direction" : "left"}]]
+},
+{
+  "value" : [208, 255, 0, 255],
+  "comment" : "Medieval Torch",
+  "brush" : [["object", "medievaltorch", {"direction" : "left"}]]
+},
+{
+  "value" : [0, 252, 255, 255],
+  "comment" : "Healing Water",
+  "brush" : [["liquid", "healingliquid"]]
+},
+{
+  "value" : [0, 251, 255, 255],
+  "comment" : "Water",
+  "brush" : [["liquid", "water"]]
+},
+{
+  "value" : [150, 230, 120, 255],
+  "comment" : "Tree",
+  "brush" : [["biometree"]]
+},
+{
+  "value" : [149, 230, 120, 255],
+  "comment" : "Biome Flora",
+  "brush" : [["biomeitems"]]
+},
+{
+  "value" : [14, 152, 0, 255],
+  "comment" : "Fish",
+  "brush" : [ [ "npc", { "kind" : "monster",  "typeName" : "fish",  "seed" : "stable", "parameters" : { "persistent" : true }} ]]
+},
+{
+  "value" : [254, 128, 64, 255],
+  "comment" : "Sandstonewhite B",
+  "brush" : [["clear"], ["back", "sandstonewhite"]]
+},
+{
+  "value" : [253, 128, 64, 255],
+  "comment" : "Sandstonewhite F/B",
+  "brush" : [["clear"], ["back", "sandstonewhite"], ["front", "sandstonewhite"]]
+},
+{
+  "value" : [75, 172, 47, 255],
+  "comment" : "Glass B",
+  "brush" : [["clear"], ["back", "glass"]]
+},
+{
+  "value" : [74, 172, 47, 255],
+  "comment" : "Blue Glass B",
+  "brush" : [["clear"], ["back", "blueglass"]]
+},
+{
+  "value" : [12, 12, 12, 255],
+  "comment" : "Cobblestone B",
+  "brush" : [["clear"], ["back", "cobblestonebrick"]]
+},
+{
+  "value" : [11, 12, 12, 255],
+  "comment" : "Cobblestone F/B",
+  "brush" : [["clear"], ["back", "cobblestonebrick"], ["front", "cobblestonebrick"]]
+},
+{
+  "value" : [66, 66, 66, 255],
+  "comment" : "Shojipanel B",
+  "brush" : [["clear"], ["back", "shojiscreenpanel"]]
+},
+{
+  "value" : [65, 66, 66, 255],
+  "comment" : "Shojipanel B",
+  "brush" : [["clear"], ["back", "shojiscreenpanel"], ["front", "shojiscreenpanel"]]
+},
+{
+  "value" : [255, 30, 30, 255],
+  "comment" : "Wooden Chair Right",
+  "brush" : [["object", "medievalchair", {"direction" : "right"}]]
+},
+{
+  "value" : [254, 30, 30, 255],
+  "comment" : "Wooden Chair Left",
+  "brush" : [["object", "medievalchair", {"direction" : "left"}]]
+},
+{
+  "value" : [253, 30, 30, 255],
+  "comment" : "Royal Chair right",
+  "brush" : [["object", "royalthrone", {"direction" : "right"}]]
+},
+{
+  "value" : [252, 30, 30, 255],
+  "comment" : "Royal Chair Left",
+  "brush" : [["object", "royalthrone", {"direction" : "left"}]]
+},
+{
+  "value" : [251, 30, 30, 255],
+  "comment" : "Castledoor",
+  "brush" : [["object", "castledoor"]]
+},
+{
+  "value" : [250, 30, 30, 255],
+  "comment" : "Chandelier",
+  "brush" : [["object", "medievalchandelier"]]
+},
+{
+  "value" : [249, 30, 30, 255],
+  "comment" : "Fence F",
+  "brush" : [["back", "packeddirt"], ["front", "fence"]]
+},
+{
+  "value" : [248, 30, 30, 255],
+  "comment" : "Torch",
+  "brush" : [["object", "torch"]]
+},
+{
+  "value" : [247, 30, 30, 255],
+  "comment" : "Royal Candle",
+  "brush" : [["object", "royalcandles"]]
+},
+{
+  "value" : [246, 30, 30, 255],
+  "comment" : "Large Banner",
+  "brush" : [["object", "bannermedievallarge"]]
+},
+{
+  "value" : [245, 30, 30, 255],
+  "comment" : "Small Banner",
+  "brush" : [["object", "bannermedievalsmall"]]
+},
+{
+  "value" : [244, 30, 30, 255],
+  "comment" : "Royal Toilet",
+  "brush" : [["object", "royaltoilet", {"direction" : "right"}]]
+},
+{
+  "value" : [243, 30, 30, 255],
+  "comment" : "Piano",
+  "brush" : [["object", "apexpiano", {"direction" : "right"}]]
+},
+{
+  "value" : [242, 30, 30, 255],
+  "comment" : "Gong",
+  "brush" : [["object", "birdgong2", {"direction" : "right"}]]
+},
+{
+  "value" : [241, 30, 30, 255],
+  "comment" : "Taiko",
+  "brush" : [["object", "florandrum4", {"direction" : "right"}]]
+},
+{
+  "value" : [240, 30, 30, 255],
+  "comment" : "Wardrobe",
+  "brush" : [["object", "apexwardrobe", {"direction" : "left"}]]
+},
+{
+  "value" : [239, 30, 30, 255],
+  "comment" : "Apex Cupboard",
+  "brush" : [["object", "apexcounter1", {"direction" : "right"}]]
+},
+{
+  "value" : [238, 30, 30, 255],
+  "comment" : "Wooden Couch",
+  "brush" : [["object", "woodencouch1", {"direction" : "left"}]]
+},
+{
+  "value" : [237, 30, 30, 255],
+  "comment" : "Wooden Couch",
+  "brush" : [["object", "woodencouch1", {"direction" : "right"}]]
+},
+{
+  "value" : [236, 30, 30, 255],
+  "comment" : "Wooden Armchair 1",
+  "brush" : [["object", "woodenarmchair1", {"direction" : "left"}]]
+},
+{
+  "value" : [235, 30, 30, 255],
+  "comment" : "Bookcase",
+  "brush" : [["object", "tribalbookcase1", {"direction" : "right"}]]
+},
+{
+  "value" : [234, 30, 30, 255],
+  "comment" : "Tribal Table",
+  "brush" : [["object", "tribaltable", {"direction" : "left"}]]
+},
+{
+  "value" : [233, 30, 30, 255],
+  "comment" : "Royal Chalice",
+  "brush" : [["object", "royalchalice", {"direction" : "left"}]]
+},
+{
+  "value" : [232, 30, 30, 255],
+  "comment" : "Medieval Pedestal",
+  "brush" : [["object", "medievalpedestal", {"direction" : "left"}]]
+},
+{
+  "value" : [231, 30, 30, 255],
+  "comment" : "Red Flower",
+  "brush" : [["object", "fireflowerpot", {"direction" : "left"}]]
+},
+{
+  "value" : [230, 30, 30, 255],
+  "comment" : "Large Castle Door",
+  "brush" : [["object", "largecastledoor", {"direction" : "left"}]]
+}
+
+
+
+],
+
+"parts" : 
+[
+    {
+      "name" : "opera",
+      "rules" : [
+       [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "image", [ "opera.png", "opera-objects.png"] ]
+    }
+]
+}

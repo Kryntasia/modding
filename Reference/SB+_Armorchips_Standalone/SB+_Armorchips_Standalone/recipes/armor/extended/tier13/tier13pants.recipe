@@ -1,0 +1,11 @@
+{
+  "input" : [
+	{ "item" : "sparxcrystal",   "count" : 50},
+	{ "item" : "chaosorb",   "count" : 50},
+	{ "item" : "chaosalloy",   "count" : 75},
+	{ "item" : "money", "count" : 300000}
+  ],
+  "output" : { "item" : "sparxarmorpants", "count" : 1 },
+  "groups" : [ "armors", "all" ]
+}
+

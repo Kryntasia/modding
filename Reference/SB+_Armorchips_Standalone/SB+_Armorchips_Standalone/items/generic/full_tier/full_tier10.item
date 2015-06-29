@@ -1,0 +1,7 @@
+{
+  "itemName" : "full_tier10",
+  "rarity" : "Rare",
+  "inventoryIcon" : "full_tier10.png",
+  "description" : "Token to craft a full set of equipment.",
+  "shortdescription" : "T10 Equipment Card"
+}

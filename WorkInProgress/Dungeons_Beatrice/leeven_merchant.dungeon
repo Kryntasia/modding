@@ -1,0 +1,120 @@
+{
+  "metadata" : {
+    "name" : "leveehouse",
+    "species" : "generic",
+    "rules" : [],
+    "anchor" : ["leveehouse"],
+    "gravity" : 80,
+    "maxRadius" : 1000000,
+    "maxParts" : 100,
+    "protected" : true
+},
+
+"tiles" : 
+[
+{
+  "value" : [255, 128, 0, 255],
+  "comment" : "Sand F/B",
+  "brush" : [["clear"], ["back", "sand"], ["front", "sand"]]
+},
+{
+  "value" : [191, 96, 0, 255],
+  "comment" : "Sand B",
+  "brush" : [["clear"], ["back", "sand"]]
+},
+{
+  "value" : [128, 64, 0, 255],
+  "comment" : "Sandstone F/B",
+  "brush" : [["clear"], ["back", "sandstone01"], ["front", "sandstone01"]]
+},
+{
+  "value" : [128, 128, 128, 255],
+  "comment" : "Fadestone F/B -- Needs Add",
+  "brush" : [["clear"], ["back", "fadewhite"], ["front", "fadewhite"]]
+},
+{
+  "value" : [95, 95, 95, 255],
+  "comment" : "Fadestone B -- Needs Add",
+  "brush" : [["clear"],["back", "fadewhite"]]
+},
+{
+  "value" : [64, 0, 0, 255],
+  "comment" : "Sandstone Brown F/B -- Needs Add",
+  "brush" : [["clear"], ["back", "sandstonebrown"], ["front", "sandstonebrown"]]
+},
+{
+  "value" : [128, 0, 0, 255],
+  "comment" : "Sandstone Brown B -- Needs Add",
+  "brush" : [["clear"], ["back", "sandstonebrown"]]
+},
+{
+  "value" : [255, 128, 64, 255],
+  "comment" : "Sandstonewhite B -- Needs Add",
+  "brush" : [["clear"], ["back", "sandstonewhite"]]
+},
+{
+  "value" : [64, 32, 0, 255],
+  "comment" : "Wood B",
+  "brush" : [["clear"], ["back", "darkwood"]]
+},
+{
+  "value" : [106, 53, 0, 255],
+  "comment" : "Wood F/B",
+  "brush" : [["clear"], ["back", "darkwood"], ["front", "darkwood"]]
+},
+{
+  "value" : [255, 201, 14, 255],
+  "comment" : "Yellow Sandstone B -- Needs Add",
+  "brush" : [["clear"], ["back", "sandstoneyellow"]]
+},
+{
+  "value" : [112, 145, 190, 255],
+  "comment" : "Fence B",
+  "brush" : [["clear"], ["back", "fence"]]
+},
+{
+  "value" : [83, 122, 176, 255],
+  "comment" : "Crosshatch B -- Needs Add Maybe",
+  "brush" : [["clear"], ["back", "crosshatch"]]
+},
+{
+  "value" : [227, 176, 0, 255],
+  "comment" : "Yellow Sandstone F/B",
+  "brush" : [["clear"], ["back", "sandstoneyellow"], ["front", "sandstoneyellow"]]
+},
+{
+  "value" : [34, 177, 76, 255],
+  "comment" : "Plantmatter F/B",
+  "brush" : [["clear"], ["back", "plantmatterblock"], ["front", "plantmatterblock"]]
+},
+{
+  "value" : [181, 230, 29, 255],
+  "comment" : "Plantmatter B",
+  "brush" : [["clear"], ["back", "plantmatterblock"]]
+},
+{
+  "value" : [63, 72, 204, 255],
+  "comment" : "Blue Sandstone F/B -- Needs Add",
+  "brush" : [["clear"], ["back", "sandstoneblue"], ["front", "sandstoneblue"]]
+},
+{
+  "value" : [0, 162, 232, 255],
+  "comment" : "Blue Sandstone B -- Needs Add",
+  "brush" : [["clear"], ["back", "sandstoneblue"]]
+},
+{
+  "value" : [185, 122, 87, 255],
+  "comment" : "Dirt F/B",
+  "brush" : [["clear"], ["back", "dirtmaterial"], ["front", "dirtmaterial"]]
+}
+],
+
+"parts" : 
+[
+    {
+      "name" : "leveehouse",
+      "rules" : [
+      ],
+      "def" : [ "image", [ "leveehouse.png", "leveehouse-objects.png" ] ]
+    }
+]

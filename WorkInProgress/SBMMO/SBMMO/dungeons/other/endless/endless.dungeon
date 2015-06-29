@@ -1,0 +1,89 @@
+{
+  "metadata" : {
+    "name" : "endless",
+    "species" : "dummy",
+    "rules" : [
+    ],
+    "anchor" : [ "endless"],
+    "gravity" : 80,
+    "maxRadius" : 1000000,
+    "maxParts" : 100
+  },
+  "tiles" : 
+  [
+   {
+      "value" : [255, 0, 220, 255],
+      "comment" : "magic pinkppp, a no-op value"
+    },
+    {
+    "value" : [255, 82, 82, 255],
+    "comment" : "Wooden Platform Placeholder",
+    "brush" : [["front", "platform"]]
+    },
+    {
+    "value" : [99, 64, 64, 255],
+    "comment" : "Monster Placeholder",
+    "brush" : [["front", "fadedblocks"]]
+    },
+    {
+    "value" : [163, 73, 164, 255],
+    "comment" : "Purple Line Placeholder",
+    "brush" : [["clear"], ["back", "fadedblocks"]]
+    },
+    {
+    "value" : [153, 217, 234, 255],
+    "comment" : "Background Material",
+    "brush" : [["clear"], ["back", "fadingblue"]]
+    },
+    {
+    "value" : [127, 127, 127, 255],
+    "comment" : "Background Darkgrey",
+    "brush" : [["clear"], ["back", "aztec"]]
+    },
+    {
+    "value" : [0, 0, 0, 255],
+    "comment" : "Black Border",
+    "brush" : [["clear"], ["back", "blackglass"], ["front", "blackglass"]]
+    },
+    {
+    "value" : [63, 72, 204, 255],
+    "comment" : "Dark Blue Outline",
+    "brush" : [["clear"], ["back", "deepblue"]]
+    },
+    {
+    "value" : [112, 146, 190, 255],
+    "comment" : "Grey Outline",
+    "brush" : [["clear"], ["back", "darkblue"]]
+    },
+    {
+    "value" : [0, 162, 232, 255],
+    "comment" : "Light Blue Outline",
+    "brush" : [["clear"], ["back", "lightblue"]]
+    },
+    {
+    "value" : [255, 127, 39, 255],
+    "comment" : "Inner Orange Square",
+    "brush" : [["clear"], ["back", "drydirt"]]
+    },
+    {
+    "value" : [136, 0, 21, 255],
+    "comment" : "Inner Indicator",
+    "brush" : [["clear"], ["back", "goldblock"]]
+    },
+    {
+      "value" : [34, 177, 76, 255],
+      "comment" : "Player Spawn",
+      "brush" : [ [ "playerstart" ] ]
+    }
+  ],
+  "parts" : 
+  [
+    {
+      "name" : "endless",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "image", [ "stage1-base.png", "stage1-objects.png" ] ]
+    }
+  ]
+}

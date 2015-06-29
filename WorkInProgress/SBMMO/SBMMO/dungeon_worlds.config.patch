@@ -1,0 +1,16 @@
+[
+{
+    "op" : "add",
+    "path" : "/endless",
+    "value" :  {
+    "primaryDungeon" : "endless",
+    "threatLevel" : 1,
+    "gravity" : 80,
+    "worldSize" : [2000, 1000],
+    "dungeonBaseHeight" : 500,
+    "ambientLightLevel" : [128, 128, 128],
+    "ambientNoises" : "/sfx/environmental/space_loop4.ogg",
+    "musicTrack" : "/music/planetarium.ogg"
+  }
+}
+]

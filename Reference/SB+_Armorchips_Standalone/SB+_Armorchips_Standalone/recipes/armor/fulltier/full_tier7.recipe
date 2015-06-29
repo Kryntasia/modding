@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "mithrilliumbar", "count" : 30 },
+	{ "item" : "sermantiumbar", "count" : 30},
+	{ "item" : "kaltrosbar", "count" : 30},
+	{ "item" : "sparxcrystal", "count" : 30}
+  ],
+  "output" : { "item" : "full_tier7", "count" : 1 },
+  "groups" : [ "anvil", "armors", "all" ]
+}

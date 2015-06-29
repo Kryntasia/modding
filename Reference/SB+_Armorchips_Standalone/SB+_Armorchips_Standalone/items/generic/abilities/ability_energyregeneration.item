@@ -1,0 +1,7 @@
+{
+  "itemName" : "ability_energyregeneration",
+  "rarity" : "Rare",
+  "inventoryIcon" : "ability_energyregeneration.png",
+  "description" : "Used to upgrade your armor with the Energy Recovery ability.",
+  "shortdescription" : "Energy Recovery Card"
+}

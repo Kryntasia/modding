@@ -1,0 +1,14 @@
+{
+  "name" : "SB+ Armorchips Standalone",
+  "version" : "Spirited Giraffe",
+  "path" : ".",
+  "requires" : [],
+  "includes" : [],
+  "metadata":
+    {
+      "author" : "Kayuko",
+	  "version" : "0.85",
+      "description" : "Adds a new way of getting Armor.",
+      "support_url" : ""
+    }
+}

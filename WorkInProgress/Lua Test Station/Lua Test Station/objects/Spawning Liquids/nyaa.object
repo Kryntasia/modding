@@ -1,0 +1,40 @@
+{
+  "objectName" : "spawnliquid",
+  "rarity" : "Common",
+  "description" : "Flowers!",
+  "price" : 250,
+  "shortdescription" : "Fireflower.",
+  "race" : "generic",
+  "category" : "storage",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+
+  "apexDescription" : "The petals of this flower look like tongues of flame.",
+  "avianDescription" : "The flower dances in the breeze, like fire.",
+  "floranDescription" : "Pretty flower. Look like flamesss.",
+  "glitchDescription" : "Appreciative. Nature is the Mistress of beauty.",
+  "humanDescription" : "A beautiful soft flower. I wonder if eating this will let me throw fireballs?",
+  "hylotlDescription" : "Flowers of the surface are so vibrant.",
+"scripts" : [
+"/objects/spawning.lua"],
+  "inventoryIcon" : "nyaaicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "nyaa.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1
+    }
+  ],
+ "openSounds" : [ "/sfx/objects/chest_small_open.wav" ],
+  "closeSounds" : [ "/sfx/objects/chest_small_close.wav" ],
+  "scriptDelta" : 1,
+  "slotCount" : 12,
+  "uiConfig" : "/interface/chests/chest%slots%.config",
+  "autoCloseCooldown" : 3600,
+ "frameCooldown" : 5,
+  "inboundNodes" : [ [0, 1]],  
+  "interval" : 15
+  }

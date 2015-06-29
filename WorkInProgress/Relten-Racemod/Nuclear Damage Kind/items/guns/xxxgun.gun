@@ -1,0 +1,31 @@
+{
+  "itemName" : "xxxgun",
+  "inventoryIcon" : "xxxgun.png",
+  "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "rare",
+  "description" : "Puts the 'assault' in Aegisalt",
+  "shortdescription" : "Aegisalt Rifle",
+  "image" : "xxxgun.png",
+  "handPosition" : [-4, -1],
+  "firePosition" : [21, 2],
+  "recoilTime" : 0.1,
+  "level" : 5,
+  "tooltipKind" : "gun",
+  "weaponType" : "Assault Rifle",
+  "fireTime" : 0.13,
+  "inaccuracy" : 0.025,
+  "twoHanded" : true,
+  "walkWhileFiring" : false,
+
+  "projectileType" : "nuclearplasma",
+  "projectile" : {
+    "speed" : 75,
+    "life" : 3,
+    "power" : 0.78
+  },
+  "muzzleEffect" : {
+    "fireSound" : [ { "file" : "/sfx/gun/plasma_ar2.wav" } ],
+    "animation" : "/animations/muzzleflash/plasmamuzzle4green/plasmamuzzle4green.animation"
+  }
+}

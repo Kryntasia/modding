@@ -1,0 +1,7 @@
+{
+  "itemName" : "ability_maxhealth",
+  "rarity" : "Rare",
+  "inventoryIcon" : "ability_maxhealth.png",
+  "description" : "Used to upgrade your armor with the Increase Health ability.",
+  "shortdescription" : "Maximum Health Card"
+}

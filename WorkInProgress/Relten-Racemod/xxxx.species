@@ -1,0 +1,40 @@
+{
+  "kind" : "xxx",
+  "nameGen" : [ "/species/xxxnamegen.config:names", "/species/xxxnamegen.config:names" ],
+  "ouchNoises" : [ "/sfx/humanoid/xxxhurt_male1.wav", "/sfx/humanoid/xxxhurt_female1.wav" ],
+  "gruntNoises" : [ [ "/sfx/humanoid/xxxgrunt1.wav", "/sfx/humanoid/xxxgrunt2.wav" ], [ "/sfx/humanoid/xxxgrunt1.wav", "/sfx/humanoid/xxxgrunt2.wav" ] ],
+  "charGenTextLabels" : [ "FEATHER COLOR", "PLUMAGE", "SHIRT", "PANTS", "BEAK STYLE", "FLUFF", "SHIRT COLOR", "PANTS COLOR", "AVIAN", "PERSONALITY" ],
+  "skull" : "/humanoid/xxx/dead.png",
+  "defaultBlueprints" : {
+    "tier1" : []
+  },
+  "genders" : [
+    {
+      "name" : "male",
+      "image" : "/interface/title/male.png",
+      "characterImage" : "/interface/title/xxxmale.png",
+      "hair" : [""],
+      "shirt" : [""],
+      "pants" : [""],
+      "facialHairGroup" : "xx",
+      "facialHair" : [""],
+      "facialMaskGroup" : "xxxx",
+      "facialMask" : [""]
+    },
+    {
+      "name" : "female",
+      "image" : "/interface/title/female.png",
+      "characterImage" : "/interface/title/xxxfemale.png",
+      "hair" : [""],
+      "shirt" : [""],
+      "pants" : [""],
+      "facialHairGroup" : "xx",
+      "facialHair" : [""],
+      "facialMaskGroup" : "xxxx",
+      "facialMask" : [""]
+    }
+  ],
+  "bodyColor" : [ "" : ""],
+  "undyColor" : [ "" : ""],
+  "hairColor" : [ "" : ""]
+}

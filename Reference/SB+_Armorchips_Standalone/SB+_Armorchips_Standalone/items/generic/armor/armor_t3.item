@@ -1,0 +1,7 @@
+{
+  "itemName" : "armor_t3",
+  "rarity" : "Rare",
+  "inventoryIcon" : "armor_t3.png",
+  "description" : "Used to transfer armor-value to equipment.",
+  "shortdescription" : "T3 Armor Card"
+}

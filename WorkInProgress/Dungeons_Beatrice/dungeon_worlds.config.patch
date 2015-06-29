@@ -1,0 +1,43 @@
+[{
+    "op" : "add",
+    "path" : "/leevenhouse",
+    "value" :  {
+    "primaryDungeon" : "leevenhouse",
+    "threatLevel" : 1,
+    "gravity" : 80,
+    "worldSize" : [700, 200],
+    "biome" : "desert",
+    "dungeonBaseHeight" : 47,
+    "ambientLightLevel" : [200, 200, 200],
+    "ambientNoises" : "/sfx/environmental/space_loop4.ogg",
+    "musicTrack" : "/music/planetarium.ogg"
+  }
+},
+{
+    "op" : "add",
+    "path" : "/opera",
+    "value" :  {
+    "primaryDungeon" : "opera",
+    "threatLevel" : 1,
+    "gravity" : 80,
+    "worldSize" : [500, 500],
+    "dungeonBaseHeight" : 200,
+    "ambientLightLevel" : [200, 200, 200],
+    "ambientNoises" : "/sfx/environmental/space_loop4.ogg",
+    "musicTrack" : "/music/planetarium.ogg"
+  }
+},
+{
+    "op" : "add",
+    "path" : "/lionbridge",
+    "value" :  {
+    "primaryDungeon" : "lionbridge",
+    "threatLevel" : 1,
+    "gravity" : 80,
+    "worldSize" : [500, 500],
+    "dungeonBaseHeight" : 200,
+    "ambientLightLevel" : [200, 200, 200],
+    "ambientNoises" : "/sfx/environmental/space_loop4.ogg",
+    "musicTrack" : "/music/planetarium.ogg"
+  }
+}]

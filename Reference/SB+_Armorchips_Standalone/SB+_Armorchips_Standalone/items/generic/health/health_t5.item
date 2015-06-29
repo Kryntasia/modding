@@ -1,0 +1,7 @@
+{
+  "itemName" : "health_t5",
+  "rarity" : "Rare",
+  "inventoryIcon" : "health_t5.png",
+  "description" : "Used to transfer health-value to equipment.",
+  "shortdescription" : "T5 Health Card"
+}

@@ -1,0 +1,11 @@
+{
+  "input" : [
+	{ "item" : "chaosshard",   "count" : 50},
+	{ "item" : "chaosorb",   "count" : 100},
+	{ "item" : "chaosalloy",   "count" : 200},
+	{ "item" : "money", "count" : 500000}
+  ],
+  "output" : { "item" : "chaosarmorpants", "count" : 1 },
+  "groups" : ["armors", "all" ]
+}
+
