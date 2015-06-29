@@ -1,0 +1,39 @@
+{
+  "metadata" : {
+    "name" : "testmission",
+    "species" : "generic",
+    "rules" : [
+    ],
+    "anchor" : [ "testmission" ],
+    "gravity" : 80,
+    "maxRadius" : 1000000,
+    "maxParts" : 100,
+    "protected" : true
+  },
+    "tiles" : [
+	{
+      "value" : [255, 0, 220, 255],
+      "comment" : "magic pinkppp, a no-op value"
+    },
+  {
+"value" : [255, 0, 0, 255],
+"comment" : "foreground moonrock block",
+"brush" : [ [ "clear" ], [ "back", "moonrock" ], [ "front", "moonrock" ] ]
+},
+{
+      "value" : [0, 255, 0, 255],
+      "comment" : "Player Spawn",
+      "brush" : [ [ "playerstart" ] ]
+    }
+	],
+	"parts" : [
+    {
+      "name" : "testmission",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "image", [ "testmission.png", "testmission-objects.png", "testmission-wires1.png"] ]
+    }
+  ]
+	
+}

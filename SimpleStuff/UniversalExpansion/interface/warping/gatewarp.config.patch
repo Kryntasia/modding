@@ -1,0 +1,27 @@
+[
+{
+"op" : "add",
+"path" : "/destinations",
+"value" :
+[
+{
+"name" : "Outpost",
+"planetName" : "Survivors' Settlement",
+"warpAction" : "UniqueWorld:outpost",
+"icon" : "outpost"
+},
+{
+"name" : "Ark",
+"planetName" : "Mysterious Ruin",
+"warpAction" : "UniqueWorld:monolith",
+"icon" : "ark"
+},
+{
+"name" : "Castle Outpost",
+"planetName" : "InDev",
+"warpAction" : "UniqueWorld:testmission",
+"icon" : "ark"
+}
+]
+}
+]

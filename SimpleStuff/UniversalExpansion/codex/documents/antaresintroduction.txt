@@ -1,0 +1,10 @@
+{
+  "id" : "antaressector",
+  "title" : "The Antares Sector: Introduction",
+  "contentPages" : [
+
+    "The Antares Sector is what one would typically call the basolute backwater of space. When people on Earth used to refer to Tenesse as a backwoods sesspool this is essentially the space equivalent of that. Point is, this is a dangerous sector, one you wouldn't want to be caught alone in."
+
+    
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "metadata" : {
+    "name" : "testmission",
+    "species" : "generic",
+    "rules" : [
+    ],
+    "anchor" : [ "testmission" ],
+    "gravity" : 80,
+    "maxRadius" : 1000000,
+    "maxParts" : 100,
+    "protected" : true
+  },
+  {
+"value" : [255, 0, 0, 255],
+"comment" : "foreground moonrock block",
+"brush" : [ [ "clear" ], [ "back", "moonrock" ], [ "front", "moonrock" ] ]
+}
+}

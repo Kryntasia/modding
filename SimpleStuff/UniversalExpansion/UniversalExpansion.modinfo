@@ -1,0 +1,11 @@
+{
+  "name" : "Universal Expansion",
+  "version" : "Something, Something, Giraffe",
+  "path" : ".",
+  "dependencies" : [],
+  "metadata" : {
+    "author" : "Joshua Wilson",
+    "version" : "0.01",
+    "description" : "This Mod Will Extend Your Starbound!"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "codexId" : "AntaresIntroduction",
+  "title" : "Antares Sector: Introduction",
+  "codexkind" : "codex",
+  "inventoryIcon" : "baseantarescodex.png",
+  "itemName" : "antaresCodex",
+  "rarity" : "common",
+  "description" : "An Into Duction to The Antares Sector",
+  "shortdescription" : "Antares Sector"
+}
