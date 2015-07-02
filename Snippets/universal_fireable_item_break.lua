@@ -11,3 +11,5 @@ function uninit()
         end
     end
 end
+
+-- Credit for this one goes to Wellbot.
