@@ -1,3 +1,10 @@
 [
-{ "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : {"item": "berriumcarbinerifle"} }
+{ "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : {"item": "berriumcarbinerifle"} },
+{ "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : {"item": "berriumbassblaster"} },
+{ "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : {"item": "berriummarksmanrifle"} },
+{ "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : {"item": "berriumplasmarifle"} },
+{ "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : {"item": "berriumriotshotgun"} },
+{ "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : {"item": "berriumsmg"} },
+{ "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : {"item": "berriumrevolver"} },
+{ "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : {"item": "berriumshotgun"} }
 ]

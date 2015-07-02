@@ -1,0 +1,46 @@
+{
+    "itemName": "berriumsmg",
+    "inventoryIcon": "berriumsmg.png",
+    "dropCollision": [
+        -8,
+        -3,
+        8,
+        3
+    ],
+    "maxStack": 1,
+    "rarity": "rare",
+    "description": "A great SMG.",
+    "shortdescription": "Berrium SMG",
+    "image": "berriumriotshotgun.png",
+    "handPosition": [
+        -4,
+        -1
+    ],
+    "firePosition": [
+        21,
+        2
+    ],
+    "recoilTime": 0.1,
+    "level": 3,
+    "projectileCount": 1,
+    "tooltipKind": "gun",
+    "weaponType": "SMG",
+    "fireTime": 0.3,
+    "inaccuracy": 0.11,
+    "twoHanded": true,
+    "walkWhileFiring": false,
+    "projectileType": "berriumbullet-4",
+    "projectile": {
+        "speed": 75,
+        "life": 3,
+        "power": 1.2
+    },
+    "muzzleEffect": {
+        "fireSound": [
+            {
+                "file": "/sfx/berriummp3.wav"
+            }
+        ],
+        "animation": "/animations/muzzleflash/berriumbulletmuzzle4/berriumbulletmuzzle4.animation"
+    }
+}

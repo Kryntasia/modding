@@ -1,0 +1,4 @@
+[
+{"op" : "replace", "path" : "/destinations/0/warpAction", "value" : "InstanceWorld:outpost"},
+{"op" : "replace", "path" : "/destinations/1/warpAction", "value" : "InstanceWorld:monolith"}
+]

@@ -1,0 +1,32 @@
+{
+  "itemName" : "berriumriotshotgun",
+  "inventoryIcon" : "berriumriotshotgun.png",
+  "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "rare",
+  "description" : "A great shotgun.",
+  "shortdescription" : "Berrium Riot Shotgun",
+  "image" : "berriumriotshotgun.png",
+  "handPosition" : [-9, -1],
+  "firePosition" : [17, 0],
+  "recoilTime" : 0.1,
+  "level" : 3,
+  "projectileCount" : 5,
+  "tooltipKind" : "gun",
+  "weaponType" : "Shotgun",
+  "fireTime" : .40,
+  "inaccuracy" : 0.11,
+  "twoHanded" : true,
+  "walkWhileFiring" : false,
+
+  "projectileType" : "berriumbullet-4",
+  "projectile" : {
+    "speed" : 75,
+    "life" : 3,
+    "power" : 2
+  },
+  "muzzleEffect" : {
+    "fireSound" : [ { "file" : "/sfx/berriumshotgun1.wav" } ],
+    "animation" : "/animations/muzzleflash/berriumbulletmuzzle4/berriumbulletmuzzle4.animation"
+  }
+}

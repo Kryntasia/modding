@@ -1,0 +1,32 @@
+{
+  "itemName" : "berriumplasmarifle",
+  "inventoryIcon" : "berriumplasmarifle.png",
+  "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "rare",
+  "description" : "A great plasma rifle.",
+  "shortdescription" : "Berrium Plasma Rifle",
+  "image" : "berriumplasmarifle.png",
+  "handPosition" : [-4, -1],
+  "firePosition" : [21, 2],
+  "recoilTime" : 0.1,
+  "level" : 3,
+  "projectileCount" : 5,
+  "tooltipKind" : "gun",
+  "weaponType" : "Plasma Rifle",
+  "fireTime" : 1.2,
+  "inaccuracy" : 0.11,
+  "twoHanded" : true,
+  "walkWhileFiring" : false,
+
+  "projectileType" : "berriumplasma4",
+  "projectile" : {
+    "speed" : 75,
+    "life" : 3,
+    "power" : 8
+  },
+  "muzzleEffect" : {
+    "fireSound" : [ { "file" : "/sfx/berriumpulsecannon_blast1.wav" } ],
+    "animation" : "/animations/muzzleflash/berriumplasmamuzzle3blue/berriumplasmamuzzle3blue.animation"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "itemName" : "berriumbassblaster",
+  "inventoryIcon" : "berriumbassblaster.png",
+  "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "legendary",
+  "description" : "Unleash the wobble.",
+  "shortdescription" : "Berrium Bass Blaster",
+  "image" : "berriumbassblaster.png",
+  "handPosition" : [-4, -1],
+  "firePosition" : [21, 2],
+  "recoilTime" : 0.1,
+  "level" : 3,
+  "projectileCount" : 1,
+  "tooltipKind" : "gun",
+  "weaponType" : "Bass Cannon",
+  "fireTime" : 1.5,
+  "inaccuracy" : 0.11,
+  "twoHanded" : true,
+  "walkWhileFiring" : false,
+
+  "projectileType" : "berriumelectricplasmarocket",
+  "projectile" : {
+    "speed" : 75,
+    "life" : 3,
+    "power" : 15
+  },
+  "muzzleEffect" : {
+    "fireSound" : [ { "file" : "/sfx/bass_wobble" } ],
+    "animation" : "/animations/muzzleflash/berriummeteorflash/berriummeteorflash.animation"
+  }
+}
